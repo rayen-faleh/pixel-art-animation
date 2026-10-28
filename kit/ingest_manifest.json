@@ -1,0 +1,389 @@
+{
+ "plate_height": 240,
+ "atlases": [
+  {
+   "name": "civilians",
+   "sources": [
+    {
+     "file": "incoming/C1-civilians-front_gpt_v1.png",
+     "names": [
+      "mom.front",
+      "hale.front",
+      "kid.front",
+      "driver.front",
+      "nurse.front",
+      "teen.front",
+      "jogger.front",
+      "guard.front"
+     ]
+    },
+    {
+     "file": "incoming/C1-civilians-back_gpt_v1.png",
+     "names": [
+      "mom.back",
+      "hale.back",
+      "kid.back",
+      "driver.back",
+      "nurse.back",
+      "teen.back",
+      "jogger.back",
+      "guard.back"
+     ]
+    },
+    {
+     "file": "incoming/C1-civilians-34left_gpt_v1.png",
+     "names": [
+      "mom.34l",
+      "hale.34l",
+      "kid.34l",
+      "driver.34l",
+      "nurse.34l",
+      "teen.34l",
+      "jogger.34l",
+      "guard.34l"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "hero_actions",
+   "sources": [
+    {
+     "file": "incoming/C2-hero-actions_gpt_v1.png",
+     "names": [
+      "crouch",
+      "run",
+      "tiptoe",
+      "peek",
+      "prone",
+      "sit_wall",
+      "clutch_phone",
+      "blanket"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "changed_stages",
+   "sources": [
+    {
+     "file": "incoming/M1-changed-stages_gpt_v1.png",
+     "names": [
+      "stage1",
+      "stage2",
+      "stage3",
+      "stage4",
+      "stage5"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "changed_poses",
+   "sources": [
+    {
+     "file": "incoming/M2-changed-poses-olive_gpt_v1.png",
+     "names": [
+      "olive.stand",
+      "olive.back",
+      "olive.tilt",
+      "olive.reach",
+      "olive.scream",
+      "olive.crawl",
+      "olive.longarms",
+      "olive.glass"
+     ]
+    },
+    {
+     "file": "incoming/M2-changed-poses-maroon_gpt_v1.png",
+     "names": [
+      "maroon.stand",
+      "maroon.back",
+      "maroon.tilt",
+      "maroon.reach",
+      "maroon.scream",
+      "maroon.crawl",
+      "maroon.longarms",
+      "maroon.glass"
+     ]
+    },
+    {
+     "file": "incoming/M2-changed-poses-navy_gpt_v1.png",
+     "names": [
+      "navy.stand",
+      "navy.back",
+      "navy.tilt",
+      "navy.reach",
+      "navy.scream",
+      "navy.crawl",
+      "navy.longarms",
+      "navy.glass"
+     ]
+    },
+    {
+     "file": "incoming/M2-changed-poses-teal_gpt_v1.png",
+     "names": [
+      "teal.stand",
+      "teal.back",
+      "teal.tilt",
+      "teal.reach",
+      "teal.scream",
+      "teal.crawl",
+      "teal.longarms",
+      "teal.glass"
+     ]
+    },
+    {
+     "file": "incoming/M2-changed-poses-plum_gpt_v1.png",
+     "names": [
+      "plum.stand",
+      "plum.back",
+      "plum.tilt",
+      "plum.reach",
+      "plum.scream",
+      "plum.crawl",
+      "plum.longarms",
+      "plum.glass"
+     ]
+    },
+    {
+     "file": "incoming/M2-changed-poses-brown_gpt_v1.png",
+     "names": [
+      "brown.stand",
+      "brown.back",
+      "brown.tilt",
+      "brown.reach",
+      "brown.scream",
+      "brown.crawl",
+      "brown.longarms",
+      "brown.glass"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "tall_one",
+   "sources": [
+    {
+     "file": "incoming/M3-tall-one_gpt_v1.png",
+     "names": [
+      "human_ref",
+      "front",
+      "side",
+      "back",
+      "peer"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "crawler",
+   "sources": [
+    {
+     "file": "incoming/M4-crawler_gpt_v1.png",
+     "names": [
+      "crawl0",
+      "crawl1",
+      "crawl2",
+      "crawl3",
+      "ceiling",
+      "under_door",
+      "frozen"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "crowd_tiny",
+   "sources": [
+    {
+     "file": "incoming/M5-crowd-distant_gpt_v1.png",
+     "names": [
+      "c00",
+      "c01",
+      "c02",
+      "c03",
+      "c04",
+      "c05",
+      "c06",
+      "c07",
+      "c08",
+      "c09",
+      "c10",
+      "c11",
+      "c12",
+      "c13",
+      "c14",
+      "c15"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "busts",
+   "sources": [
+    {
+     "file": "incoming/M6-busts_gpt_v1.png",
+     "names": [
+      "changed_glass",
+      "changed_smile",
+      "hero_terror"
+     ],
+     "merge": 5
+    }
+   ]
+  },
+  {
+   "name": "fg_props",
+   "sources": [
+    {
+     "file": "incoming/E3-fg-car_gpt_v1.png",
+     "names": [
+      "car_side"
+     ]
+    },
+    {
+     "file": "incoming/E1-fg-armchair_gpt_v1.png",
+     "names": [
+      "armchair_back"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "lights",
+   "sources": [
+    {
+     "file": "incoming/P2-lights_gpt_v1.png",
+     "names": [
+      "lantern_off",
+      "flashlight_off",
+      "candle_off",
+      "lamp_off",
+      "tv_off",
+      "laptop_off",
+      "fairy_off",
+      "headlight_off",
+      "lantern_on",
+      "flashlight_on",
+      "candle_on",
+      "lamp_on",
+      "tv_on",
+      "laptop_on",
+      "fairy_on",
+      "headlight_on"
+     ],
+     "merge": 6
+    }
+   ]
+  },
+  {
+   "name": "openings",
+   "sources": [
+    {
+     "file": "incoming/P3-openings_gpt_v1.png",
+     "names": [
+      "door",
+      "door_boarded",
+      "window_blinds_down",
+      "window_blinds_half",
+      "window_bagged",
+      "chair",
+      "bookcase",
+      "door_peephole"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "supplies",
+   "sources": [
+    {
+     "file": "incoming/P1-supplies_gpt_v1.png",
+     "names": [
+      "can",
+      "water_jug",
+      "batteries",
+      "radio",
+      "matches",
+      "first_aid",
+      "duct_tape",
+      "trash_bag",
+      "crowbar",
+      "walkie",
+      "map",
+      "key",
+      "backpack",
+      "sleeping_bag",
+      "can_opener",
+      "rice",
+      "crackers",
+      "thermos",
+      "whistle",
+      "knife",
+      "blackout_cloth",
+      "car_fob",
+      "pills",
+      "notebook"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "icons",
+   "sources": [
+    {
+     "file": "incoming/P4-icons_gpt_v1.png",
+     "names": [
+      "water",
+      "cereal",
+      "battery",
+      "flashlight",
+      "candle",
+      "phone",
+      "no_signal",
+      "no_light",
+      "door_locked",
+      "eye",
+      "moon",
+      "clock",
+      "first_aid",
+      "key",
+      "footprints",
+      "warning"
+     ]
+    }
+   ]
+  }
+ ],
+ "plates": [
+  {
+   "name": "livingroom",
+   "file": "incoming/E1-livingroom_gpt_v1.png"
+  },
+  {
+   "name": "basement",
+   "file": "incoming/E2-basement_gpt_v1.png"
+  },
+  {
+   "name": "street_wide",
+   "file": "incoming/E3-street-wide_gpt_v1.png"
+  },
+  {
+   "name": "gas_station",
+   "file": "incoming/E4-gas-station_gpt_v1.png"
+  },
+  {
+   "name": "aisle",
+   "file": "incoming/E5-aisle_gpt_v1.png"
+  },
+  {
+   "name": "car_pov",
+   "file": "incoming/E6-car-pov_gpt_v1.png"
+  },
+  {
+   "name": "town",
+   "file": "incoming/E7-town-overview_gpt_v1.png"
+  }
+ ]
+}

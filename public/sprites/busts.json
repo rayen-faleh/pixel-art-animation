@@ -1,0 +1,36 @@
+{
+ "image": "busts.png",
+ "cell": [
+  35,
+  35
+ ],
+ "pivot": [
+  17,
+  34
+ ],
+ "sheet": [
+  105,
+  35
+ ],
+ "frames": {
+  "changed_glass": {
+   "x": 0,
+   "y": 0,
+   "w": 35,
+   "h": 35
+  },
+  "changed_smile": {
+   "x": 35,
+   "y": 0,
+   "w": 35,
+   "h": 35
+  },
+  "hero_terror": {
+   "x": 70,
+   "y": 0,
+   "w": 35,
+   "h": 35
+  }
+ },
+ "source": "kit/ingest.py (AI-generated, cleaned)"
+}

@@ -1,0 +1,34 @@
+# Node dependencies and build caches
+node_modules/
+/dist/
+/build/
+.cache/
+*.tsbuildinfo
+/coverage/
+
+# Rendered videos, stills, and intermediate narration/audio
+/out/
+/audio/*
+!/audio/voices/
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+/.aws/
+
+# Logs and editor/OS temporary files
+*.log
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

@@ -1,0 +1,117 @@
+{
+ "_format": "Each line is one Chatterbox take. Tokens split on spaces. [shown=spoken] gives a spoken form. Suffix *y = yellow keyword, *r = red keyword. A trailing / ends a caption phrase. fx: brother = narrator pitched up ~3.5 semitones. pause = silence after the line (s).",
+ "title": "DON'T REPLY Day 1",
+ "lines": [
+  {
+   "id": "D01",
+   "text": "You wake up at [7:02=seven_oh_two],*y/ check your phone,/ and MrBeast*y has sent you a DM.*r/",
+   "pause": 0.35
+  },
+  {
+   "id": "D02",
+   "text": "Sent at [3:33=three_thirty-three] AM.*r/ While you were asleep./",
+   "pause": 0.6
+  },
+  {
+   "id": "D03",
+   "text": "Your group chat*y is already awake./",
+   "pause": 0.3
+  },
+  {
+   "id": "D04",
+   "text": "Did everyone get it?/ Don't answer.*r/ Jake answered.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "D05",
+   "text": "It knows your name.*r/ You never put it on this account./",
+   "pause": 0.45
+  },
+  {
+   "id": "D06",
+   "text": "Rule number one.*r/ Don't open it.*y/ It'll know you read it.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "D07",
+   "text": "Jake's story,*y/ [4:12=four_twelve] AM.*y/ His bed,/ empty.*r/ His phone*y on the pillow./",
+   "pause": 0.3
+  },
+  {
+   "id": "D08",
+   "text": "The caption says,/ I said yes.*r/",
+   "pause": 0.6
+  },
+  {
+   "id": "D09",
+   "text": "Buzz./ Ten thousand dollars.*y/ Buzz./ A hundred thousand.*y/",
+   "pause": 0.35
+  },
+  {
+   "id": "D10",
+   "text": "Next to your name,/ a green dot.*y/ Active now.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "D11",
+   "text": "Rule number two.*r/ Go offline.*y/ It follows the green dot.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "D12",
+   "text": "Then a photo*y of your street,/ taken last night./ Every window dark./",
+   "pause": 0.4
+  },
+  {
+   "id": "D13",
+   "text": "Which one is yours?*r/",
+   "pause": 1.1
+  },
+  {
+   "id": "D14",
+   "text": "You look out through the blinds.*y/",
+   "pause": 0.3
+  },
+  {
+   "id": "D15",
+   "text": "Something tall*r stands on the sidewalk./ Its phone*y is lit./",
+   "pause": 0.45
+  },
+  {
+   "id": "D16",
+   "text": "Your thumb slips.*r/ Three dots*y appear under your name./",
+   "pause": 0.3
+  },
+  {
+   "id": "D17",
+   "text": "Outside,/ its head turns*r toward your house./",
+   "pause": 0.5
+  },
+  {
+   "id": "D18",
+   "text": "Rule number three.*r/ Don't touch the keyboard.*y/",
+   "pause": 0.6
+  },
+  {
+   "id": "D19",
+   "text": "Your door bangs open.*y/ Your little brother,*y/ grinning,/ holding his tablet./",
+   "pause": 0.3
+  },
+  {
+   "id": "D20",
+   "text": "MrBeast messaged me too!*y/ I'm saying yes!*r/",
+   "pause": 0.35,
+   "fx": "brother"
+  },
+  {
+   "id": "D21",
+   "text": "His thumb is already/ on the Y.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "D22",
+   "text": "What do you do?/ Comment below./",
+   "pause": 0.3
+  }
+ ]
+}

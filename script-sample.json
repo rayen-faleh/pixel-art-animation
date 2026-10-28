@@ -1,0 +1,11 @@
+{"sentences": [
+ {"words": [{"t":"It's"},{"t":"3:07","say":"three oh seven","key":"y"},{"t":"AM.","say":"A M.","brk":true}], "pause": 0.3},
+ {"words": [{"t":"Your"},{"t":"phone"},{"t":"buzzes.","key":"y","brk":true}], "pause": 0.2},
+ {"words": [{"t":"Emergency","key":"r"},{"t":"alert.","key":"r","brk":true}], "pause": 0.15},
+ {"words": [{"t":"Do"},{"t":"not"},{"t":"open"},{"t":"your"},{"t":"door.","key":"r","brk":true}], "pause": 0.4},
+ {"words": [{"t":"Someone"},{"t":"knocks.","key":"r","brk":true}], "pause": 0.2},
+ {"words": [{"t":"Three","key":"y"},{"t":"times.","brk":true}], "pause": 0.35},
+ {"words": [{"t":"It's"},{"t":"your"},{"t":"neighbor.","key":"y","brk":true}], "pause": 0.3},
+ {"words": [{"t":"But"},{"t":"your"},{"t":"neighbor","brk":true},{"t":"moved","key":"r"},{"t":"out"},{"t":"last"},{"t":"week.","brk":true}], "pause": 0.45},
+ {"words": [{"t":"Your"},{"t":"call.","brk":true}], "pause": 0.1}
+]}

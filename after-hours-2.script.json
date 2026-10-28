@@ -1,0 +1,153 @@
+{
+ "_format": "Each line is one Chatterbox take. Tokens split on spaces. [shown=spoken] gives a spoken form. Suffix *y = yellow keyword, *r = red keyword, *g = green (safe). A trailing / ends a caption phrase. fx: radio = PA speaker, janitor / mimic / friend = pitch-shifted character voices (from the narrator's take). pause = silence after the line (s).",
+ "title": "AFTER HOURS Day 2",
+ "lines": [
+  {
+   "id": "H01",
+   "text": "Every speaker*y in your school/ is also a microphone.*r/",
+   "pause": 0.6
+  },
+  {
+   "id": "H02",
+   "text": "Your best friend*y knocked for eleven minutes.*y/ You didn't make a sound./",
+   "pause": 0.4
+  },
+  {
+   "id": "H03",
+   "text": "Then the knocking stopped./ And from the hallway,/ in her voice:/",
+   "pause": 0.3
+  },
+  {
+   "id": "H03b",
+   "text": "Okay./ I'll find another way in.*r/",
+   "pause": 0.8,
+   "fx": "friend"
+  },
+  {
+   "id": "H04",
+   "text": "So you hide./ Under the front desk.*y/",
+   "pause": 0.35
+  },
+  {
+   "id": "H05",
+   "text": "Solid wood.*g/ One way in.*g/ A wall at your back.*g/",
+   "pause": 0.4
+  },
+  {
+   "id": "H06",
+   "text": "The perfect spot./ Except for one detail.*r/",
+   "pause": 0.7
+  },
+  {
+   "id": "H07",
+   "text": "Right above you,/ on the wall./ A speaker.*y/ The same one that's in every room./",
+   "pause": 0.4
+  },
+  {
+   "id": "H08",
+   "text": "School intercoms are two-way.*y/ The front office can talk to any room.*y/ And listen to it.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "H09",
+   "text": "That's how it knew/ there was still a student here.*r/",
+   "pause": 0.6
+  },
+  {
+   "id": "H10",
+   "text": "Rule number four.*r/ If the speaker's light is red,/ it's listening.*r/",
+   "pause": 0.7
+  },
+  {
+   "id": "H11",
+   "text": "Down the hall,/ a speaker clicks on.*y/ Room [104=one-oh-four].*y/ A hiss./ Then off./",
+   "pause": 0.4
+  },
+  {
+   "id": "H12",
+   "text": "[106=One-oh-six].*y/ [108=One-oh-eight].*y/ It's checking every room./",
+   "pause": 0.4
+  },
+  {
+   "id": "H13",
+   "text": "The library/ is [110=one-ten].*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "H14",
+   "text": "Click.*r/ The light above you/ turns red.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "H15",
+   "text": "You stop breathing./",
+   "pause": 1.6
+  },
+  {
+   "id": "H16",
+   "text": "Next door,/ in [108=one-oh-eight],/ someone coughs.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "H17",
+   "text": "Your light goes dark.*g/ Footsteps run past the library door,/ toward [108=one-oh-eight].*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "H18",
+   "text": "Then [108=one-oh-eight]/ goes quiet.*r/",
+   "pause": 1.0
+  },
+  {
+   "id": "H19",
+   "text": "For a minute,/ nothing./ Then every speaker in the school*y/ clicks on at once./",
+   "pause": 0.4
+  },
+  {
+   "id": "H20",
+   "text": "And a voice you know says:/",
+   "pause": 0.3
+  },
+  {
+   "id": "H20b",
+   "text": "Maya?*y/ It's me.*y/ I'm in the library./ Come find me./",
+   "pause": 0.5,
+   "fx": "radio"
+  },
+  {
+   "id": "H21",
+   "text": "It's your voice.*r/ It's been listening to your classroom/ all day./",
+   "pause": 0.6
+  },
+  {
+   "id": "H22",
+   "text": "Your phone lights up.*y/ Maya.*y/ Is that you?/ I'm in the band room./ Coming now.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "H23",
+   "text": "You text back,/ don't.*r/ Delivered./ Not read./ She's already walking./",
+   "pause": 0.6
+  },
+  {
+   "id": "H24",
+   "text": "The phone on the desk*y/ has a code taped to it./ Page all.*y/ Star [21=twenty-one].*y/",
+   "pause": 0.4
+  },
+  {
+   "id": "H25",
+   "text": "Dial it,/ and your real voice/ is on every speaker in the school./",
+   "pause": 0.4
+  },
+  {
+   "id": "H26",
+   "text": "And it hears*r exactly where you are./",
+   "pause": 0.6
+  },
+  {
+   "id": "H27",
+   "text": "Warn Maya,*g/ or stay hidden?*r/ Comment one or two./",
+   "pause": 0.3
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "image": "infected.png",
+ "cell": [
+  32,
+  64
+ ],
+ "pivot": [
+  16,
+  63
+ ],
+ "sheet": [
+  128,
+  64
+ ],
+ "frames": {
+  "stand": {
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 64
+  },
+  "tilt": {
+   "x": 32,
+   "y": 0,
+   "w": 32,
+   "h": 64
+  },
+  "face": {
+   "x": 64,
+   "y": 0,
+   "w": 32,
+   "h": 64
+  },
+  "face_open": {
+   "x": 96,
+   "y": 0,
+   "w": 32,
+   "h": 64
+  }
+ },
+ "note": "tall infected figure, pivot feet"
+}

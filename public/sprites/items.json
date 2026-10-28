@@ -1,0 +1,48 @@
+{
+ "image": "items.png",
+ "cell": [
+  16,
+  20
+ ],
+ "pivot": [
+  8,
+  19
+ ],
+ "sheet": [
+  80,
+  20
+ ],
+ "frames": {
+  "water": {
+   "x": 0,
+   "y": 0,
+   "w": 16,
+   "h": 20
+  },
+  "cereal": {
+   "x": 16,
+   "y": 0,
+   "w": 16,
+   "h": 20
+  },
+  "flashlight": {
+   "x": 32,
+   "y": 0,
+   "w": 16,
+   "h": 20
+  },
+  "candles": {
+   "x": 48,
+   "y": 0,
+   "w": 16,
+   "h": 20
+  },
+  "phone": {
+   "x": 64,
+   "y": 0,
+   "w": 16,
+   "h": 20
+  }
+ },
+ "note": "pivot = bottom centre of cell"
+}

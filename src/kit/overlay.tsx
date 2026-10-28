@@ -4,7 +4,7 @@ import {caption, color, font, timing, H} from './theme';
 import {clamp, ramp} from './world';
 
 // ---------- word-append captions ----------
-export type Word = {t: string; s: number; e?: number; key?: 'y' | 'r' | boolean; brk?: boolean};
+export type Word = {t: string; s: number; e?: number; key?: 'y' | 'r' | 'g' | boolean; brk?: boolean};
 export type Phrase = {start: number; end: number; words: Word[]};
 
 export const phrasesFrom = (words: Word[], hold = 0.6, maxEnd?: number): Phrase[] => {
@@ -37,7 +37,7 @@ export const WordCaption: React.FC<{phrases: Phrase[]; centerY?: number; size?: 
         const wf = Math.round(w.s * fps);
         if (f < wf) return null;
         const p = ramp(f, wf, timing.wordPop, Easing.out(Easing.back(2.2)));
-        const c = w.key === 'r' ? color.keyRed : w.key ? color.keyYellow : color.white;
+        const c = w.key === 'r' ? color.keyRed : w.key === 'g' ? color.keyGreen : w.key ? color.keyYellow : color.white;
         return <span key={i} style={{display: 'inline-block', color: c, transform: `scale(${1.35 - 0.35 * p})`, opacity: Math.min(1, (f - wf + 1) / 2),
           WebkitTextStroke: `${caption.stroke}px ${color.ink}`, paintOrder: 'stroke fill',
           filter: 'drop-shadow(0 6px 0 rgba(0,0,0,0.55))'}}>{w.t}</span>;

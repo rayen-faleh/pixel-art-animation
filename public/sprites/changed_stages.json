@@ -1,0 +1,48 @@
+{
+ "image": "changed_stages.png",
+ "cell": [
+  22,
+  39
+ ],
+ "pivot": [
+  11,
+  38
+ ],
+ "sheet": [
+  110,
+  39
+ ],
+ "frames": {
+  "stage1": {
+   "x": 0,
+   "y": 0,
+   "w": 22,
+   "h": 39
+  },
+  "stage2": {
+   "x": 22,
+   "y": 0,
+   "w": 22,
+   "h": 39
+  },
+  "stage3": {
+   "x": 44,
+   "y": 0,
+   "w": 22,
+   "h": 39
+  },
+  "stage4": {
+   "x": 66,
+   "y": 0,
+   "w": 22,
+   "h": 39
+  },
+  "stage5": {
+   "x": 88,
+   "y": 0,
+   "w": 22,
+   "h": 39
+  }
+ },
+ "source": "kit/ingest.py (AI-generated, cleaned)"
+}

@@ -1,11 +1,32 @@
-{"sentences": [
- {"words": [{"t":"It's"},{"t":"3:07","say":"three oh seven","key":"y"},{"t":"AM.","say":"A M.","brk":true}], "pause": 0.3},
- {"words": [{"t":"Your"},{"t":"phone"},{"t":"buzzes.","key":"y","brk":true}], "pause": 0.2},
- {"words": [{"t":"Emergency","key":"r"},{"t":"alert.","key":"r","brk":true}], "pause": 0.15},
- {"words": [{"t":"Do"},{"t":"not"},{"t":"open"},{"t":"your"},{"t":"door.","key":"r","brk":true}], "pause": 0.4},
- {"words": [{"t":"Someone"},{"t":"knocks.","key":"r","brk":true}], "pause": 0.2},
- {"words": [{"t":"Three","key":"y"},{"t":"times.","brk":true}], "pause": 0.35},
- {"words": [{"t":"It's"},{"t":"your"},{"t":"neighbor.","key":"y","brk":true}], "pause": 0.3},
- {"words": [{"t":"But"},{"t":"your"},{"t":"neighbor","brk":true},{"t":"moved","key":"r"},{"t":"out"},{"t":"last"},{"t":"week.","brk":true}], "pause": 0.45},
- {"words": [{"t":"Your"},{"t":"call.","brk":true}], "pause": 0.1}
-]}
+{
+ "_format": "Each line is one Chatterbox take. Tokens split on spaces. [shown=spoken] gives a spoken form. Suffix *y = yellow keyword, *r = red keyword. A trailing / ends a caption phrase. fx: radio = alert broadcast filter, muffled = voice through the door. pause = silence after the line (s).",
+ "lines": [
+  {"id": "L01", "text": "[2:14=Two_fourteen]*y [AM.=A.M.]/ Your phone screams.*r/", "pause": 0.35},
+  {"id": "L02", "text": "Emergency*r alert.*r/ Turn off all the lights*y around you./", "pause": 0.5, "fx": "radio"},
+  {"id": "L03", "text": "No reason./ No source./ Just that./", "pause": 0.45},
+  {"id": "L04", "text": "You kill the lamp.*y/ The hallway light.*y/", "pause": 0.35},
+  {"id": "L05", "text": "Then a second*y alert./", "pause": 0.1},
+  {"id": "L06", "text": "This includes screens.*r/", "pause": 0.5, "fx": "radio"},
+  {"id": "L07", "text": "You turn the brightness*y down instead./", "pause": 0.6},
+  {"id": "L08", "text": "Across the street,/ one window is still lit.*y/", "pause": 0.35},
+  {"id": "L09", "text": "Mr. Hale*y is standing in it./ Back to the glass./ Not moving.*r/", "pause": 0.6},
+  {"id": "L10", "text": "Then you see the street./", "pause": 0.4},
+  {"id": "L11", "text": "Dozens*r of people./ Barefoot./ Silent./ All facing his window.*y/", "pause": 0.6},
+  {"id": "L12", "text": "His light goes out.*r/", "pause": 1.0},
+  {"id": "L13", "text": "And they all turn around.*r/", "pause": 0.5},
+  {"id": "L14", "text": "Grey skin./ Eyes like headlights.*r/ Smiles too wide*r for their faces./", "pause": 0.4},
+  {"id": "L15", "text": "A third*y alert./", "pause": 0.1},
+  {"id": "L16", "text": "They follow light.*r/ Do not let them see you.*r/", "pause": 0.6, "fx": "radio"},
+  {"id": "L17", "text": "Your phone lights up.*r/ Mom.*y/ Are you okay?/", "pause": 0.4},
+  {"id": "L18", "text": "Every eye*r on the street/ finds your window.*r/", "pause": 0.35},
+  {"id": "L19", "text": "You press the screen against your chest./", "pause": 0.7},
+  {"id": "L20", "text": "Okay./ Take stock./ In the dark./", "pause": 0.4},
+  {"id": "L21", "text": "Two*y bottles of water./ Half a box of cereal.*y/", "pause": 0.3},
+  {"id": "L22", "text": "A flashlight.*r/ Candles.*r/ Your phone,/ at [9%=nine_percent].*r/", "pause": 0.45},
+  {"id": "L23", "text": "Everything that keeps you alive/ makes light.*r/", "pause": 0.8},
+  {"id": "L24", "text": "Then,/ a knock.*r/ Three*y slow taps./", "pause": 0.6},
+  {"id": "L25", "text": "Honey?/ It's Mom.*y/ Turn on the porch light.*r/ I can't see./", "pause": 0.8, "fx": "muffled"},
+  {"id": "L26", "text": "Mom lives/ four hours*r away.*r/", "pause": 2.3},
+  {"id": "L27", "text": "Your call./", "pause": 0.3}
+ ]
+}

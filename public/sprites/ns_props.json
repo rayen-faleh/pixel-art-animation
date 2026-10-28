@@ -1,0 +1,54 @@
+{
+ "image": "ns_props.png",
+ "cell": [
+  32,
+  32
+ ],
+ "pivot": [
+  16,
+  31
+ ],
+ "sheet": [
+  192,
+  32
+ ],
+ "frames": {
+  "register": {
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "cctv": {
+   "x": 32,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "open_on": {
+   "x": 64,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "open_off": {
+   "x": 96,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "nozzle": {
+   "x": 128,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "walkie": {
+   "x": 160,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  }
+ },
+ "note": "NIGHT SHIFT counter props, pivot bottom centre"
+}

@@ -1,0 +1,66 @@
+{
+ "image": "openings.png",
+ "cell": [
+  48,
+  67
+ ],
+ "pivot": [
+  24,
+  66
+ ],
+ "sheet": [
+  384,
+  67
+ ],
+ "frames": {
+  "door": {
+   "x": 0,
+   "y": 0,
+   "w": 48,
+   "h": 67
+  },
+  "door_boarded": {
+   "x": 48,
+   "y": 0,
+   "w": 48,
+   "h": 67
+  },
+  "window_blinds_down": {
+   "x": 96,
+   "y": 0,
+   "w": 48,
+   "h": 67
+  },
+  "window_blinds_half": {
+   "x": 144,
+   "y": 0,
+   "w": 48,
+   "h": 67
+  },
+  "window_bagged": {
+   "x": 192,
+   "y": 0,
+   "w": 48,
+   "h": 67
+  },
+  "chair": {
+   "x": 240,
+   "y": 0,
+   "w": 48,
+   "h": 67
+  },
+  "bookcase": {
+   "x": 288,
+   "y": 0,
+   "w": 48,
+   "h": 67
+  },
+  "door_peephole": {
+   "x": 336,
+   "y": 0,
+   "w": 48,
+   "h": 67
+  }
+ },
+ "source": "kit/ingest.py (AI-generated, cleaned)"
+}

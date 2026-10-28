@@ -1,0 +1,14 @@
+{"bed": {"gain_db": -27, "swell": [[10.1, 1.6], [11.7, 1.2]], "cut": 13.65},
+ "events": [
+  {"t": 0.05, "fx": "tick", "gain_db": -18},
+  {"t": 2.85, "fx": "buzz", "gain_db": -14},
+  {"t": 3.72, "fx": "alert", "gain_db": -22},
+  {"t": 7.70, "fx": "knock", "gain_db": -6},
+  {"t": 7.93, "fx": "knock", "gain_db": -6},
+  {"t": 8.16, "fx": "knock", "gain_db": -6},
+  {"t": 10.05, "fx": "sting", "gain_db": -12},
+  {"t": 10.95, "fx": "riser", "gain_db": -20},
+  {"t": 11.62, "fx": "boom", "gain_db": -10},
+  {"t": 14.18, "fx": "pop", "gain_db": -16},
+  {"t": 14.45, "fx": "pop", "gain_db": -16}
+ ]}

@@ -1,0 +1,111 @@
+{
+ "_format": "Each line is one Chatterbox take. Tokens split on spaces. [shown=spoken] gives a spoken form. Suffix *y = yellow keyword, *r = red keyword, *g = green (safe). A trailing / ends a caption phrase. fx: radio = PA speaker, janitor / mimic / friend = pitch-shifted character voices (from the narrator's take). pause = silence after the line (s).",
+ "title": "NIGHT SHIFT Part 2",
+ "lines": [
+  {
+   "id": "S01",
+   "text": "The music saved you./ Then it stopped.*r/",
+   "pause": 0.7
+  },
+  {
+   "id": "S02",
+   "text": "[3:52=Three_fifty-two] AM.*y/ You stay behind the counter./ Dawn is at [6:50=six_fifty].*y/",
+   "pause": 0.4
+  },
+  {
+   "id": "S03",
+   "text": "Next to you,/ the driver.*y/ His name is Dev.*y/ He hasn't made a sound/ in twenty minutes./",
+   "pause": 0.5
+  },
+  {
+   "id": "S04",
+   "text": "Outside,/ his car radio*y is still playing./ Every crawler*r at the station/ is on that car./",
+   "pause": 0.4
+  },
+  {
+   "id": "S05",
+   "text": "As long as it plays,/ they don't care about the store.*g/",
+   "pause": 0.6
+  },
+  {
+   "id": "S06",
+   "text": "But there's one detail.*r/ A car radio/ runs on the battery.*y/",
+   "pause": 0.4
+  },
+  {
+   "id": "S07",
+   "text": "Dev looks at you/ and mouths two words./ Battery's dying.*r/",
+   "pause": 0.7
+  },
+  {
+   "id": "S08",
+   "text": "Four ten.*y/ The music skips./",
+   "pause": 0.4
+  },
+  {
+   "id": "S09",
+   "text": "Four thirty.*y/ The songs start to drag./",
+   "pause": 0.4
+  },
+  {
+   "id": "S10",
+   "text": "Four fifty-one.*y/ It stops.*r/",
+   "pause": 1.6
+  },
+  {
+   "id": "S11",
+   "text": "On the camera,/ every head turns*r/ toward the store./",
+   "pause": 0.6
+  },
+  {
+   "id": "S12",
+   "text": "Rule number one.*r/ Until dawn,/ nothing in this store/ makes a sound.*r/",
+   "pause": 0.6
+  },
+  {
+   "id": "S13",
+   "text": "Then,/ behind you,/ something clicks.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "S14",
+   "text": "The beer cooler.*y/ Store coolers turn themselves on.*y/ Every twenty minutes,*y/ the compressor kicks in./",
+   "pause": 0.4
+  },
+  {
+   "id": "S15",
+   "text": "It hums for five minutes./ Loud enough to hear*r/ from the pumps./",
+   "pause": 0.5
+  },
+  {
+   "id": "S16",
+   "text": "A grey hand*r slides under the shutter./ Then a second.*r/ Then a third.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "S17",
+   "text": "The hum stops.*g/ The hands stop./ Listening./ Then they slide back out./",
+   "pause": 0.6
+  },
+  {
+   "id": "S18",
+   "text": "Next cycle:/ [5:12=five_twelve].*r/ Dawn is still/ an hour and a half away./",
+   "pause": 0.5
+  },
+  {
+   "id": "S19",
+   "text": "The cooler's plug*y is behind it./ Ten feet*r of open floor,/ right in front of the gap./",
+   "pause": 0.5
+  },
+  {
+   "id": "S20",
+   "text": "Dev is already/ taking off his shoes./ It was his car.*y/ He'll go./",
+   "pause": 0.6
+  },
+  {
+   "id": "S21",
+   "text": "Let Dev cross the floor,/ or go yourself?/ Comment one or two./",
+   "pause": 0.3
+  }
+ ]
+}

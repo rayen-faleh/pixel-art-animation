@@ -57,7 +57,7 @@ export const World: React.FC<{cam: {x: number; y: number; zoom: number}; childre
   </AbsoluteFill>;
 };
 
-/** Full-stage set layer (135x240 PNG). */
-export const SetLayer: React.FC<{src: string; style?: React.CSSProperties}> = ({src, style}) => (
-  <Img src={staticFile(src)} style={{position: 'absolute', left: 0, top: 0, width: ART_W, height: ART_H, imageRendering: 'pixelated', ...style}} />
+/** Full-stage set layer, ART_H tall. Kit sets are 135 wide; ingested plates are ~160 wide (pass `width`). */
+export const SetLayer: React.FC<{src: string; width?: number; style?: React.CSSProperties}> = ({src, width = ART_W, style}) => (
+  <Img src={staticFile(src)} style={{position: 'absolute', left: 0, top: 0, width, height: ART_H, imageRendering: 'pixelated', maxWidth: 'none', ...style}} />
 );

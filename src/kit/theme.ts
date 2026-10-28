@@ -12,6 +12,7 @@ export const color = {
   white: '#ffffff',
   keyYellow: '#ffcf3a', // neutral emphasis (time, numbers, things)
   keyRed: '#ff3b3b', // danger / wrongness
+  keyGreen: '#5fd38a', // safe / relief
   alertRed: '#ff2d3d',
   moon: 'rgba(120,160,255,1)',
   phone: 'rgba(160,215,255,1)',

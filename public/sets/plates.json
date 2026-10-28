@@ -1,0 +1,44 @@
+{
+ "livingroom": {
+  "w": 159,
+  "h": 240,
+  "fg": true,
+  "source": "E1-livingroom_gpt_v1.png"
+ },
+ "basement": {
+  "w": 160,
+  "h": 240,
+  "fg": true,
+  "source": "E2-basement_gpt_v1.png"
+ },
+ "street_wide": {
+  "w": 160,
+  "h": 240,
+  "fg": false,
+  "source": "E3-street-wide_gpt_v1.png"
+ },
+ "gas_station": {
+  "w": 160,
+  "h": 240,
+  "fg": true,
+  "source": "E4-gas-station_gpt_v1.png"
+ },
+ "aisle": {
+  "w": 159,
+  "h": 240,
+  "fg": true,
+  "source": "E5-aisle_gpt_v1.png"
+ },
+ "car_pov": {
+  "w": 158,
+  "h": 240,
+  "fg": true,
+  "source": "E6-car-pov_gpt_v1.png"
+ },
+ "town": {
+  "w": 159,
+  "h": 240,
+  "fg": true,
+  "source": "E7-town-overview_gpt_v1.png"
+ }
+}

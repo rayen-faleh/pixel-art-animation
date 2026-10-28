@@ -1,0 +1,158 @@
+{
+ "_format": "Each line is one Chatterbox take. Tokens split on spaces. [shown=spoken] gives a spoken form. Suffix *y = yellow keyword, *r = red keyword. A trailing / ends a caption phrase. fx: radio = alert broadcast filter, muffled = voice through the door. pause = silence after the line (s).",
+ "title": "SOUL FOR SALE Part 1",
+ "lines": [
+  {
+   "id": "S01",
+   "text": "[2:40=Two_forty]*y [AM.=A.M.]/ Night shift.*y/ Aisle six./",
+   "pause": 0.24
+  },
+  {
+   "id": "S02",
+   "text": "A post:/ Selling souls.*r/ Serious offers only./",
+   "pause": 0.24
+  },
+  {
+   "id": "S03",
+   "text": "You type:/ Sign*y me*y up.*y/",
+   "pause": 0.42,
+   "seed": 13
+  },
+  {
+   "id": "S04",
+   "text": "Every light*r in the store/ goes out.*r/",
+   "pause": 0.8
+  },
+  {
+   "id": "S05",
+   "text": "Lights back./ An envelope*y on your belt./ Your name*r on it./",
+   "pause": 0.24
+  },
+  {
+   "id": "S06",
+   "text": "A receipt.*y/ Seven-day*y free trial.*y/",
+   "pause": 0.21
+  },
+  {
+   "id": "S07",
+   "text": "You laugh./ You sign.*r/",
+   "pause": 0.49
+  },
+  {
+   "id": "S08",
+   "text": "The envelope's gone./ The receipt's*r in your pocket./",
+   "pause": 0.35
+  },
+  {
+   "id": "S09",
+   "text": "Day one.*y/ A scratch card./ Fifty*y thousand*y dollars.*y/",
+   "pause": 0.21
+  },
+  {
+   "id": "S10",
+   "text": "The receipt prints./ Paid with:/ taste.*r/",
+   "pause": 0.21
+  },
+  {
+   "id": "S11",
+   "text": "The best steak in the store/ tastes like paper.*r/",
+   "pause": 0.35
+  },
+  {
+   "id": "S12",
+   "text": "Day two.*y/ Your manager quits./ The job's yours.*y/",
+   "pause": 0.2
+  },
+  {
+   "id": "S13",
+   "text": "Paid with:/ sleep.*r/",
+   "pause": 0.21
+  },
+  {
+   "id": "S14",
+   "text": "You lie awake*r/ until your next shift./",
+   "pause": 0.35
+  },
+  {
+   "id": "S15",
+   "text": "Day three.*y/ You go viral./ Two*y million*y people/ know your face./",
+   "pause": 0.2
+  },
+  {
+   "id": "S16",
+   "text": "Paid with:/ Mom.*r/",
+   "pause": 0.28
+  },
+  {
+   "id": "S17b",
+   "text": "Sorry,/ who*r is*r this?*r/",
+   "pause": 0.42,
+   "fx": "radio"
+  },
+  {
+   "id": "S18",
+   "text": "Day four.*y/ Whatever you say,/ people do.*y/",
+   "pause": 0.2
+  },
+  {
+   "id": "S19",
+   "text": "Paid with:/ your hands.*r/",
+   "pause": 0.21
+  },
+  {
+   "id": "S20",
+   "text": "Your hands stack shelves/ at [3=three]*y [AM.=A.M.]/ On their own.*r/",
+   "pause": 0.35
+  },
+  {
+   "id": "S21",
+   "text": "Day five.*y/ You try to give it all back./",
+   "pause": 0.21
+  },
+  {
+   "id": "S22",
+   "text": "Two words./ No*r refunds.*r/",
+   "pause": 0.42
+  },
+  {
+   "id": "S23",
+   "text": "Day six.*y/ Customers fill the store./ Nobody buys anything./",
+   "pause": 0.24
+  },
+  {
+   "id": "S24",
+   "text": "Every one of them/ holds a receipt*r like yours.*r/",
+   "pause": 0.49
+  },
+  {
+   "id": "S25",
+   "text": "Day seven.*y/ Free trial ends at midnight.*y/ Balance:/ paid in shifts.*r/",
+   "pause": 0.35
+  },
+  {
+   "id": "S26",
+   "text": "Midnight.*y/",
+   "pause": 0.8
+  },
+  {
+   "id": "S27",
+   "text": "The aisles don't end.*r/ You're in uniform.*r/ So are they./",
+   "pause": 0.35
+  },
+  {
+   "id": "S28",
+   "text": "A second envelope./ To cancel,/ find a replacement.*r/",
+   "pause": 0.28
+  },
+  {
+   "id": "S29",
+   "text": "A new comment./ [lol=L.O.L.,]*y sign*y me*y up.*y/",
+   "pause": 0.6
+  },
+  {
+   "id": "S30",
+   "text": "Your call./",
+   "pause": 0.21
+  }
+ ]
+}

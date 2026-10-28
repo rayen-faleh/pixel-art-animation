@@ -1,0 +1,131 @@
+{
+ "_format": "Each line is one Chatterbox take. Tokens split on spaces. [shown=spoken] gives a spoken form. Suffix *y = yellow keyword, *r = red keyword. A trailing / ends a caption phrase. fx: radio = PA speaker, janitor / mimic / friend = pitch-shifted character voices (from the narrator's take). pause = silence after the line (s).",
+ "title": "AFTER HOURS Day 1",
+ "lines": [
+  {
+   "id": "A01",
+   "text": "You're the last one at school,/ finishing a project*y in the library,*y/ when your phone*r starts screaming.*r/",
+   "pause": 0.3
+  },
+  {
+   "id": "A02",
+   "text": "Emergency alert.*r/ Shelter in place.*y/ Stay quiet.*r/ The infected*r sound like/ people you know.*r/",
+   "pause": 0.45
+  },
+  {
+   "id": "A03",
+   "text": "The heaters stop./ The hall lights*y die,*r/ one by one./",
+   "pause": 0.45
+  },
+  {
+   "id": "A04",
+   "text": "Now you can hear/ the whole building.*r/",
+   "pause": 1.1
+  },
+  {
+   "id": "A05",
+   "text": "The speaker*y crackles./",
+   "pause": 0.2
+  },
+  {
+   "id": "A05b",
+   "text": "Will the last student/ come to the front office.*y/",
+   "pause": 0.3,
+   "fx": "radio"
+  },
+  {
+   "id": "A06",
+   "text": "It's the principal.*y/ She left at three.*r/",
+   "pause": 0.3
+  },
+  {
+   "id": "A07",
+   "text": "Rule number one.*y/ Ignore the speakers.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "A08",
+   "text": "Outside,/ someone shouts a name.*y/ It stops*r halfway through.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "A09",
+   "text": "Your phone rings.*y/ Mom.*y/ Mom never calls.*r/",
+   "pause": 0.3
+  },
+  {
+   "id": "A10",
+   "text": "You text her./ She replies:/ I'm at work.*y Why?*r/",
+   "pause": 0.4,
+   "seed": 12
+  },
+  {
+   "id": "A11",
+   "text": "Rule number two.*y/ Don't pick up.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "A12",
+   "text": "Down the hall,/ the janitor*y shouts,/",
+   "pause": 0.1
+  },
+  {
+   "id": "A12b",
+   "text": "Who's there?*y/",
+   "pause": 0.25,
+   "fx": "janitor"
+  },
+  {
+   "id": "A12c",
+   "text": "His keys*y hit the floor.*r/",
+   "pause": 0.6
+  },
+  {
+   "id": "A13",
+   "text": "Something answers./",
+   "pause": 0.15
+  },
+  {
+   "id": "A13b",
+   "text": "Who's there?*r/",
+   "pause": 0.25,
+   "fx": "mimic"
+  },
+  {
+   "id": "A13c",
+   "text": "In his voice.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "A14",
+   "text": "It turns toward the library.*y/ You drop below the window.*r/",
+   "pause": 0.3
+  },
+  {
+   "id": "A15",
+   "text": "Rule number three.*y/ Stay below the glass.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "A16",
+   "text": "A knock.*y/ Your best friend,*y crying./",
+   "pause": 0.15
+  },
+  {
+   "id": "A16b",
+   "text": "It's me.*y/ Please, let me in.*r/",
+   "pause": 0.3,
+   "fx": "friend"
+  },
+  {
+   "id": "A17",
+   "text": "Her last text,/ an hour ago:/ still at school too [lol=L.O.L.]*y/",
+   "pause": 0.5
+  },
+  {
+   "id": "A18",
+   "text": "What do you do?/ Comment below./",
+   "pause": 0.3
+  }
+ ]
+}

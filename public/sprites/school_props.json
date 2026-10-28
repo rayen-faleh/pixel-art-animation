@@ -1,0 +1,30 @@
+{
+ "image": "school_props.png",
+ "cell": [
+  32,
+  32
+ ],
+ "pivot": [
+  16,
+  31
+ ],
+ "sheet": [
+  64,
+  32
+ ],
+ "frames": {
+  "jan_cart": {
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "keys": {
+   "x": 32,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  }
+ },
+ "note": "AFTER HOURS props, pivot bottom centre"
+}

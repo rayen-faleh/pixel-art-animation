@@ -1,0 +1,13 @@
+# Research — short-form horror craft (for "Lights Out" alert short)
+
+Fiction piece; these are craft principles, not factual claims shown on screen.
+
+| ID | Principle | Source | Confidence | How we use it |
+| --- | --- | --- | --- | --- |
+| R1 | Suspense = audience knows the bomb is under the table; "15 seconds of surprise vs 15 minutes of suspense." | Hitchcock to Truffaut, via https://www.davidbordwell.net/blog/2013/11/ and https://www.futilitycloset.com/2023/12/20/hitchcocks-bomb-theory/ (attribution source varies: Truffaut book 1967 vs AFI 1970) | High (widely cited) | Viewer learns the rule (light attracts) before the hero's phone lights up. The phone is the bomb. |
+| R2 | Big areas of black are scarier; "anything could be hiding in there." Build around one concept, not a plot. | David F. Sandberg (Lights Out), https://www.slashfilm.com/543464/lights-out-wondercon/ | High (direct interview) | Mostly dark frames, one light source per shot; a single rule. |
+| R3 | Terror (anticipation) > horror (seeing it) > revulsion (gross-out). | Stephen King, *Danse Macabre* (1981), quoted at https://areyouexperienced.substack.com/p/danse-macabre-at-45 | Medium (secondary quote) | Delay full monster reveal; show silhouettes/eyes first, never gore. |
+| R4 | Silence before a scare is the key ingredient; dread is built in the gaps; unpitched, undulating sound unsettles. | Vulture via https://graduateschool.aub.ac.uk/top-news/the-jump-scare-lives.html ; https://lbbonline.com/news/horror-sound-designs-secrets-how-audio-experts-craft-bone-chilling-scares/ | Medium | Drone cut-outs before each reveal; one real sting, not many. |
+| R5 | A rule-based threat makes the audience police the characters' noise (A Quiet Place); sound directs attention like rack focus. | Aadahl/Van der Ryn via https://www.motionpictures.org/2018/04/the-a-quiet-place-sound-design-that-makes-audiences-afraid-of-their-own-noise/ | High | Our rule is light: viewer becomes aware of their own lit screen. |
+| R6 | Emergency-alert horror works because it borrows official authority and interrupts the ordinary (Local 58 "Contingency"). | https://www.dreadcentral.com/news/264918/wanna-see-something-really-scary-local-58-contingency-emergency-broadcast/ | Medium | Alert interrupts scrolling; generic, fictional alert UI (no real OS/agency branding). |
+| R7 | Short form: first 1–3 s decide retention; open mid-action; open loops; hook must read with sound off; keep text out of bottom/right UI zones; for story formats, hold shots rather than over-cut. | https://www.opus.pro/blog/tiktok-hook-formulas ; https://www.nemovideo.com/blog/how-to-edit-tiktok-videos (marketing blogs — treat stats as unverified) | Low–medium | Alert on screen by frame ~10; captions centred at 64 %. |

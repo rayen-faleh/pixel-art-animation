@@ -1,0 +1,138 @@
+{
+ "_format": "See script.json. fx: radio = walkie transmission.",
+ "lines": [
+  {
+   "id": "N01",
+   "text": "[3:12=Three_twelve]*y [AM.=A.M.]/ The loudest thing for thirty miles/ is your gas station.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "N02",
+   "text": "The lights hum./ The ice machine rattles./ The sign buzzes.*y/",
+   "pause": 0.45
+  },
+  {
+   "id": "N03",
+   "text": "Your shift:/ one crowbar.*y/ One walkie-talkie.*y/",
+   "pause": 0.25
+  },
+  {
+   "id": "N04",
+   "text": "A whole store of water and snacks./ And the shutter switch.*y/",
+   "pause": 0.5
+  },
+  {
+   "id": "N05",
+   "text": "Then the walkie crackles.*r/",
+   "pause": 0.15
+  },
+  {
+   "id": "N06",
+   "text": "All stations./ They hunt by sound.*r/ Go silent.*r/ Now./",
+   "pause": 0.6,
+   "fx": "radio"
+  },
+  {
+   "id": "N07",
+   "text": "You kill the hum./ You unplug the ice machine./",
+   "pause": 0.3
+  },
+  {
+   "id": "N08",
+   "text": "Then the shutter.*y/",
+   "pause": 0.2
+  },
+  {
+   "id": "N09",
+   "text": "The motor screams.*r/",
+   "pause": 0.6
+  },
+  {
+   "id": "N10",
+   "text": "It jams./ Knee height.*r/",
+   "pause": 0.7
+  },
+  {
+   "id": "N11",
+   "text": "Silence./",
+   "pause": 1.1
+  },
+  {
+   "id": "N12",
+   "text": "Then bass.*r/ Headlights./ A car pulls up to pump two,/ music blasting.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "N13",
+   "text": "On the camera,/ something on the canopy roof/ turns its head.*r/",
+   "pause": 0.6
+  },
+  {
+   "id": "N14",
+   "text": "You can't shout./ You reach under the gap/ and wave.*y/",
+   "pause": 0.25
+  },
+  {
+   "id": "N15",
+   "text": "He sees you./ Then he sees it.*r/ He runs./",
+   "pause": 0.2
+  },
+  {
+   "id": "N16",
+   "text": "He's under the shutter/ when it hits the metal.*r/",
+   "pause": 0.8
+  },
+  {
+   "id": "N17",
+   "text": "Now there are two*y of you behind the counter./",
+   "pause": 0.25
+  },
+  {
+   "id": "N18",
+   "text": "And he can't stop breathing.*r/",
+   "pause": 0.6
+  },
+  {
+   "id": "N19",
+   "text": "A grey hand*r slides under the gap./ Feeling./ Listening.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "N20",
+   "text": "You press your hand over his mouth./",
+   "pause": 0.9
+  },
+  {
+   "id": "N21",
+   "text": "It slides away./",
+   "pause": 0.4
+  },
+  {
+   "id": "N22",
+   "text": "Outside,/ his radio is still playing.*y/ They're all over the car.*r/",
+   "pause": 0.6
+  },
+  {
+   "id": "N23",
+   "text": "Then the walkie whispers.*y/",
+   "pause": 0.1
+  },
+  {
+   "id": "N24",
+   "text": "Church on [Route_9=Route_nine].*y/ Doors open till dawn./",
+   "pause": 0.5,
+   "fx": "radio"
+  },
+  {
+   "id": "N25",
+   "text": "He holds up his keys.*y/ Dawn is three hours*r away./",
+   "pause": 0.8,
+   "seed": 12
+  },
+  {
+   "id": "N26",
+   "text": "Your call./",
+   "pause": 0.3
+  }
+ ]
+}

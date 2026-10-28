@@ -1,0 +1,30 @@
+{
+ "image": "fg_props.png",
+ "cell": [
+  111,
+  74
+ ],
+ "pivot": [
+  55,
+  73
+ ],
+ "sheet": [
+  222,
+  74
+ ],
+ "frames": {
+  "car_side": {
+   "x": 0,
+   "y": 0,
+   "w": 111,
+   "h": 74
+  },
+  "armchair_back": {
+   "x": 111,
+   "y": 0,
+   "w": 111,
+   "h": 74
+  }
+ },
+ "source": "kit/ingest.py (AI-generated, cleaned)"
+}

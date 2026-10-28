@@ -1,0 +1,599 @@
+{
+ "_format": "Each line is one Chatterbox take. Tokens split on spaces. [shown=spoken] gives a spoken form. Suffix *y = yellow keyword, *r = red keyword. A trailing / ends a caption phrase. fx: dad / dad_phone / dad_back = narrator pitched down with room/phone/close FX; host / caller = radio voices. pause = silence after the line (s).",
+ "title": "NIGHT ROAD",
+ "lines": [
+  {
+   "id": "N01",
+   "text": "Your dad always said/ it was illegal*r to turn on the light*y/ inside the car at night./",
+   "pause": 0.5
+  },
+  {
+   "id": "N02",
+   "text": "It isn't.*y/ You looked it up./",
+   "pause": 0.45
+  },
+  {
+   "id": "N03",
+   "text": "He just never told you/ the real reason.*r/",
+   "pause": 0.7
+  },
+  {
+   "id": "N04",
+   "text": "Tonight,/ you find his list.*y/",
+   "pause": 2.4
+  },
+  {
+   "id": "N05",
+   "text": "It's [11:40=eleven_forty].*y/ You're driving his old car*y/ home for winter break./",
+   "pause": 0.4
+  },
+  {
+   "id": "N06",
+   "text": "Two hours to go./ Half a tank.*y/ Phone at [30%=thirty_percent].*y/",
+   "pause": 0.5
+  },
+  {
+   "id": "N07",
+   "text": "Then the highway on your map*y/ turns red.*r/ A crash,/ both lanes./",
+   "pause": 0.4
+  },
+  {
+   "id": "N08",
+   "text": "Your phone reroutes you/ onto Route*y 9.*y/ Forty miles*y of farmland./ No towns.*r/",
+   "pause": 0.6
+  },
+  {
+   "id": "N09",
+   "text": "At the first mile marker,*y/ the streetlights stop.*r/",
+   "pause": 0.6
+  },
+  {
+   "id": "N10",
+   "text": "Your headlights*y are the only light/ for miles./",
+   "pause": 1.6
+  },
+  {
+   "id": "N11",
+   "text": "A truck comes the other way/ with its high beams*y on./ You flip the sun visor*y down./",
+   "pause": 0.3
+  },
+  {
+   "id": "N12",
+   "text": "A folded card*y drops into your lap./",
+   "pause": 0.4
+  },
+  {
+   "id": "N13",
+   "text": "Dad's handwriting.*y/ Night road.*r/ Seven rules.*y/",
+   "pause": 0.4
+  },
+  {
+   "id": "N14",
+   "text": "The bottom is torn off.*r/ You can only read six.*y/",
+   "pause": 0.35
+  },
+  {
+   "id": "N15",
+   "text": "The truck's lights are still on the card,/ so you read fast./",
+   "pause": 0.3
+  },
+  {
+   "id": "N16",
+   "text": "Rule number one.*r/ Never turn on/ the inside light.*y/ Not for a second.*r/",
+   "pause": 0.45
+  },
+  {
+   "id": "N17",
+   "text": "Rule number two.*r/ Don't stop for anyone/ standing by a mile marker.*y/ They aren't hitchhiking.*r/",
+   "pause": 0.45
+  },
+  {
+   "id": "N18",
+   "text": "Rule number three.*r/ If the radio*y changes station by itself,/ leave it.*y/ Don't turn it off.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "N19",
+   "text": "The truck passes.*y/ It's too dark to read the rest./",
+   "pause": 0.4
+  },
+  {
+   "id": "N20",
+   "text": "And to read the rest,/ you'd need a light.*r/",
+   "pause": 1.8
+  },
+  {
+   "id": "N21",
+   "text": "Mile marker [12=twelve].*y/ Someone*r is standing next to it./",
+   "pause": 0.45
+  },
+  {
+   "id": "N22",
+   "text": "A pale shirt.*y/ Arms at its sides./ Facing the road.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "N23",
+   "text": "Your headlights hit its face,/ and it doesn't squint.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "N24",
+   "text": "In the mirror,*y/ it's still facing the spot/ where you were.*r/",
+   "pause": 1.2
+  },
+  {
+   "id": "N25",
+   "text": "Mile marker [13=thirteen].*y/ Someone*r is standing next to it./",
+   "pause": 0.4
+  },
+  {
+   "id": "N26",
+   "text": "Same shirt.*y/ One step closer*r to the road./",
+   "pause": 1.0
+  },
+  {
+   "id": "N26a",
+   "text": "Mile marker [14=fourteen].*y/ Nobody./ You let out a breath./",
+   "pause": 1.2
+  },
+  {
+   "id": "N27",
+   "text": "Up ahead,/ red taillights.*y/ Another car.*y/ You're not alone out here./",
+   "pause": 0.45
+  },
+  {
+   "id": "N28",
+   "text": "It's slow.*y/ The driver keeps leaning across the seat,/ looking for something./",
+   "pause": 0.4
+  },
+  {
+   "id": "N29",
+   "text": "Then the inside of that car/ lights up.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "N30",
+   "text": "You can see the driver clearly,/ like someone in a shop window.*y/",
+   "pause": 0.4
+  },
+  {
+   "id": "N31",
+   "text": "Along the road,/ every figure*r turns its head.*r/",
+   "pause": 0.6
+  },
+  {
+   "id": "N32",
+   "text": "The car pulls onto the shoulder.*y/ Its hazards*y blink twice./ Then nothing.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "N33",
+   "text": "You go around it.*y/ You don't look./",
+   "pause": 1.4
+  },
+  {
+   "id": "N34",
+   "text": "Mile marker [20=twenty].*y/ There's a car*y on the shoulder ahead./",
+   "pause": 0.4
+  },
+  {
+   "id": "N35",
+   "text": "The same car.*r/ Doors open.*y/ Inside light on.*y/ Nobody in it.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "N36",
+   "text": "Handprints*r all over the outside/ of the glass.*y/",
+   "pause": 2.0
+  },
+  {
+   "id": "N37",
+   "text": "Your phone*y lights up on the passenger seat./ A text.*y/",
+   "pause": 0.3
+  },
+  {
+   "id": "N38",
+   "text": "The whole car goes blue.*r/",
+   "pause": 0.3
+  },
+  {
+   "id": "N39",
+   "text": "And by that light,/ you can read rule four.*y/",
+   "pause": 0.3
+  },
+  {
+   "id": "N40",
+   "text": "Keep your phone face down.*y/ Screens count.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "N41",
+   "text": "Out in the field,/ something stands up.*r/",
+   "pause": 0.3
+  },
+  {
+   "id": "N42",
+   "text": "You slap the phone over.*y/ Dark again./",
+   "pause": 1.6
+  },
+  {
+   "id": "N43",
+   "text": "Then the radio*y clicks./",
+   "pause": 0.3
+  },
+  {
+   "id": "N44",
+   "text": "Your music cuts out,/ and a station you've never heard*r comes in./",
+   "pause": 0.3
+  },
+  {
+   "id": "N45",
+   "text": "A call-in show.*y/",
+   "pause": 0.4
+  },
+  {
+   "id": "N45b",
+   "text": "Caller,/ you're on the air./ Where are you?*y/",
+   "pause": 0.3,
+   "fx": "host"
+  },
+  {
+   "id": "N45c",
+   "text": "Route nine.*y/ Behind a gray car*y/ with one taillight out.*r/",
+   "pause": 0.5,
+   "fx": "caller"
+  },
+  {
+   "id": "N46",
+   "text": "Your taillight*y has been out/ since July.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "N47",
+   "text": "You reach for the dial.*y/ Rule three.*r/ You leave it./",
+   "pause": 0.45
+  },
+  {
+   "id": "N48",
+   "text": "There are no headlights*y behind you.*r/",
+   "pause": 0.3
+  },
+  {
+   "id": "N48b",
+   "text": "It's slowing down.*r/",
+   "pause": 0.4,
+   "fx": "caller"
+  },
+  {
+   "id": "N49",
+   "text": "You aren't.*y/",
+   "pause": 2.0
+  },
+  {
+   "id": "N50",
+   "text": "Your phone buzzes*y against the seat./ It doesn't stop./ Dad.*y/",
+   "pause": 0.3
+  },
+  {
+   "id": "N51",
+   "text": "You answer without turning it over./",
+   "pause": 0.3
+  },
+  {
+   "id": "N51b",
+   "text": "Where are you?*y/",
+   "pause": 0.3,
+   "fx": "dad_phone"
+  },
+  {
+   "id": "N52",
+   "text": "You tell him./ Route nine.*y/",
+   "pause": 0.3
+  },
+  {
+   "id": "N53",
+   "text": "He doesn't say anything/ for a long time.*r/",
+   "pause": 0.8
+  },
+  {
+   "id": "N53b",
+   "text": "Did you find the card?*y/",
+   "pause": 0.3,
+   "fx": "dad_phone"
+  },
+  {
+   "id": "N54",
+   "text": "You tell him yes.*y/",
+   "pause": 0.3
+  },
+  {
+   "id": "N54b",
+   "text": "Whatever you hear,/ don't turn on the light.*y/ Not even if it's me.*r/",
+   "pause": 0.4,
+   "fx": "dad_phone"
+  },
+  {
+   "id": "N55",
+   "text": "The call drops.*r/ No signal.*y/",
+   "pause": 2.2
+  },
+  {
+   "id": "N56",
+   "text": "The fuel light*y comes on/ with a chime./",
+   "pause": 0.3
+  },
+  {
+   "id": "N57",
+   "text": "Eighteen miles*y left in the tank./ The next town is [26=twenty_six].*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "N58",
+   "text": "You hold the card up/ to the dashboard glow.*y/",
+   "pause": 0.35
+  },
+  {
+   "id": "N59",
+   "text": "Rule five.*r/ If you have to stop,/ stop under a light.*y/ Never stop in the dark.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "N60",
+   "text": "Rule six.*r/ If something lands on the roof,*y/ don't brake.*r/",
+   "pause": 1.3
+  },
+  {
+   "id": "N61",
+   "text": "On a hill ahead,/ a gas station.*y/ Every light on.*y/ Nobody at the register.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "N62",
+   "text": "You pull in under the brightest light*y/ and kill the engine./",
+   "pause": 0.4
+  },
+  {
+   "id": "N63",
+   "text": "Past the edge of the canopy,/ the lot is black./",
+   "pause": 0.4
+  },
+  {
+   "id": "N64",
+   "text": "They're standing in a line*r/ right where the dark begins./ Toes on the edge*y of the light./",
+   "pause": 0.4
+  },
+  {
+   "id": "N65",
+   "text": "They don't come any closer./ They wait.*r/",
+   "pause": 1.4
+  },
+  {
+   "id": "N66",
+   "text": "You pump with your back to them./ Ten dollars.*y/ Twenty.*y/ Thirty.*y/",
+   "pause": 0.4
+  },
+  {
+   "id": "N67",
+   "text": "Above you,/ one of the canopy lights*y starts to buzz.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "N68",
+   "text": "It goes out.*r/ The line takes one step forward.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "N69",
+   "text": "You hang up the nozzle,/ open the door,*y/ and get in./",
+   "pause": 0.25
+  },
+  {
+   "id": "N70",
+   "text": "And the inside light*r comes on./ Doors do that.*y/",
+   "pause": 0.3
+  },
+  {
+   "id": "N71",
+   "text": "You slam it shut./ The light doesn't go off./ It fades,*y/ the way it always does./",
+   "pause": 0.3
+  },
+  {
+   "id": "N72",
+   "text": "Ten seconds.*r/",
+   "pause": 0.6
+  },
+  {
+   "id": "N73",
+   "text": "In the windows,/ all you can see is yourself.*y/",
+   "pause": 0.4
+  },
+  {
+   "id": "N74",
+   "text": "And behind your reflection,/ faces.*r/ Every window.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "N75",
+   "text": "Three.*r/ Two.*r/ One.*r/",
+   "pause": 0.25
+  },
+  {
+   "id": "N76",
+   "text": "Dark.*y/",
+   "pause": 2.2
+  },
+  {
+   "id": "N77",
+   "text": "You pull out fast./",
+   "pause": 0.3
+  },
+  {
+   "id": "N78",
+   "text": "Something lands*r on the roof.*y/",
+   "pause": 0.35
+  },
+  {
+   "id": "N79",
+   "text": "Your foot moves toward the brake.*y/ Rule six.*r/ You don't./",
+   "pause": 0.4
+  },
+  {
+   "id": "N80",
+   "text": "It slides down the back window,/ and it's gone.*y/",
+   "pause": 0.6
+  },
+  {
+   "id": "N80a",
+   "text": "You check the mirror.*y/ Just road./",
+   "pause": 1.4
+  },
+  {
+   "id": "N81",
+   "text": "Mile marker [30=thirty].*y/ Nobody standing by it./",
+   "pause": 0.4
+  },
+  {
+   "id": "N82",
+   "text": "Mile marker [31=thirty_one].*y/ Nobody.*r/",
+   "pause": 0.7
+  },
+  {
+   "id": "N83",
+   "text": "The radio*y comes back./",
+   "pause": 0.3
+  },
+  {
+   "id": "N83b",
+   "text": "Caller,/ are you still there?*y/",
+   "pause": 0.3,
+   "fx": "host"
+  },
+  {
+   "id": "N83c",
+   "text": "I'm in the car now.*r/",
+   "pause": 0.9,
+   "fx": "caller"
+  },
+  {
+   "id": "N84",
+   "text": "Then, from the back seat,*r/ someone clears their throat./",
+   "pause": 0.5
+  },
+  {
+   "id": "N84b",
+   "text": "Kiddo.*y/ It's me.*y/",
+   "pause": 0.5,
+   "fx": "dad_back"
+  },
+  {
+   "id": "N85",
+   "text": "It's his voice.*y/ The way he says it./",
+   "pause": 0.4
+  },
+  {
+   "id": "N85b",
+   "text": "I dropped my glasses back here./ Turn the light on*r for a second./",
+   "pause": 0.5,
+   "fx": "dad_back"
+  },
+  {
+   "id": "N86",
+   "text": "Your hand goes up to the switch.*y/",
+   "pause": 0.6
+  },
+  {
+   "id": "N87",
+   "text": "Not even if it's me.*r/",
+   "pause": 0.6
+  },
+  {
+   "id": "N88",
+   "text": "You put your hand back on the wheel.*y/",
+   "pause": 0.4
+  },
+  {
+   "id": "N88b",
+   "text": "Kiddo.*y/ The light.*r/",
+   "pause": 0.6,
+   "fx": "dad_back"
+  },
+  {
+   "id": "N89",
+   "text": "It keeps asking./ Then it stops asking.*r/",
+   "pause": 1.8
+  },
+  {
+   "id": "N90",
+   "text": "Mile marker [40=forty].*y/ A streetlight.*y/ Then another./",
+   "pause": 0.4
+  },
+  {
+   "id": "N91",
+   "text": "The light sweeps across the visor,*y/ and you see a strip of paper/ tucked behind it./",
+   "pause": 0.3
+  },
+  {
+   "id": "N92",
+   "text": "The torn-off bottom*y of the card./",
+   "pause": 0.4
+  },
+  {
+   "id": "N93",
+   "text": "Rule seven.*r/ I will never ask you/ to turn on the light.*r/",
+   "pause": 1.3
+  },
+  {
+   "id": "N94",
+   "text": "In the mirror,*y/ under the streetlights,/ the back seat is empty.*r/",
+   "pause": 2.2
+  },
+  {
+   "id": "N95",
+   "text": "[2:08=Two_oh_eight] AM.*y/ Dad's on the porch.*y/",
+   "pause": 0.4
+  },
+  {
+   "id": "N96",
+   "text": "He doesn't hug you./ He walks around the car*y first./",
+   "pause": 0.4
+  },
+  {
+   "id": "N97",
+   "text": "He looks into the back seat/ for a long time.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "N97b",
+   "text": "Did you turn it on?*y/",
+   "pause": 0.4,
+   "fx": "dad"
+  },
+  {
+   "id": "N98",
+   "text": "You shake your head./",
+   "pause": 0.4
+  },
+  {
+   "id": "N98b",
+   "text": "Good.*y/",
+   "pause": 0.6,
+   "fx": "dad"
+  },
+  {
+   "id": "N99",
+   "text": "He takes the keys*y out of your hand/ and locks the car.*y/",
+   "pause": 0.6
+  },
+  {
+   "id": "N100",
+   "text": "Behind him,/ inside the car,/ the light turns on*r by itself.*r/",
+   "pause": 2.0
+  },
+  {
+   "id": "N101",
+   "text": "Would you have turned it on?*y/ Comment below./",
+   "pause": 0.3
+  }
+ ]
+}

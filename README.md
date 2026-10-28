@@ -24,3 +24,16 @@ python3 scripts/kokoro_narrate.py script.json audio/raw --voice am_onyx --speed 
 npx remotion render src/index.ts PixelDreadSample out/sample.mp4 --codec=h264 --crf=18 --x264-preset=veryfast
 ```
 Kokoro model files: https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.0
+
+## AI-generated assets (ChatGPT image gen → kit)
+Prompts: `prompts/asset-prompts.md` (attach `prompts/refs/*`). Raw images go in `incoming/<id>_gpt_v<n>.png`.
+```sh
+python3.12 kit/make_refs.py .                          # style reference images for the prompts
+python3.12 kit/ingest.py kit/ingest_manifest.json      # sheets -> public/sprites/<atlas>.png/.json, plates -> public/sets/<name>_bg.png
+python3.12 kit/fg_cuts.py                              # occluder layers -> public/sets/<name>_fg.png
+python3.12 kit/review_assets.py <dir>                  # contact sheets next to the kit hero for scale
+npx remotion render src/index.ts AssetTest out/asset-test --sequence --image-format=png --scale=0.5
+```
+New sheet: add it to `kit/ingest_manifest.json` with frame names in reading order (rows top→bottom, left→right).
+If a sheet reports MISMATCH, lower that source's `merge` (sprites too close) or raise it (a sprite split into bits).
+Plates are ~160 art px wide: `<SetLayer src="sets/x_bg.png" width={plates.x.w} />`.
