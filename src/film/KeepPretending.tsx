@@ -57,8 +57,10 @@ const Actors: React.FC<{list: Actor[]}> = ({list}) => <>{list.map((a, i) => {
     : <React.Fragment key={i}>{wrapped}</React.Fragment>;
 })}</>;
 const P = (frame: string, x: number, y: number, o: Partial<Actor> = {}): Actor => ({atlas: pep, frame, x, y, ...o});
+// walk drawings have no breathing pair (b0 only), so name them in full
+const fullPose = (pose: string) => (pose.startsWith('walk') && pose.split('.').length === 2 ? `${pose}.b0` : pose);
 const H = (keys: PoseKey[] | string, x: number, y: number, o: Partial<Actor> = {}): Actor =>
-  typeof keys === 'string' ? {atlas: hero, keys: [{at: -999, pose: keys}], x, y, ...o} : {atlas: hero, keys, x, y, ...o};
+  ({atlas: hero, keys: (typeof keys === 'string' ? [{at: -999, pose: keys}] : keys).map((k) => ({...k, pose: fullPose(k.pose)})), x, y, ...o});
 const K = (frame: string, x: number, y: number, o: Partial<Actor> = {}): Actor => ({atlas: kp, frame, x, y, ...o});
 const walkFrame = (g: number, every = 5, prefix = 'walk') => `${prefix}${Math.floor(g / every) % 4}`;
 const upWalk = (g: number) => `upwalk${Math.floor(g / 7) % 2}`;
