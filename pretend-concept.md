@@ -1,7 +1,7 @@
-# KEEP PRETENDING: cat concept B, outline v1
+# KEEP PRETENDING: cat concept B, outline v2 (scarier ending)
 
 Alternative to `slow-blink-concept.md`. There, the cat is the eerie protector. **Here, the cat is the eerie thing.**
-Long form, 16:9 (NIGHT ROAD kit), second person, present tense, ~9–10 min (~1,200 words at ~125 wpm).
+Long form, 16:9 (NIGHT ROAD kit), second person, present tense, ~11–11.5 min (~1,400 words at ~125 wpm).
 
 **Title:** If You Catch Your Cat Standing Up at Night, Pretend You Didn't See
 Alternates: *If Your Cat Does This at 3 AM, Keep Treating It Like a Cat* · *Never Let Your Cat Know You've Seen the Camera*
@@ -57,8 +57,10 @@ when you act normal (feed it, pet it, call it by name).
 1. You got up for water at three twelve, and your cat was standing in the kitchen.
 2. Not on all fours. Standing. Straight up, like a person waiting for something.
 3. It was looking at the fridge. Then it turned its head and looked at you.
-4. And you did the only thing that saved your life. You said, *"Hey buddy,"* got your water, and went back to bed.
-5. This is how you learned the first rule. Pretend you didn't see.
+4. And you did what everyone does. You said, *"Hey buddy,"* got your water, and went back to bed.
+5. You were very good at pretending. Everyone is, at first.
+
+> Line 5 is the first narrator clue (see "The narrator twist" below): the narrator has seen other people do this.
 
 > Cold open is the thumbnail moment in the world, then the hook headline.
 > TITLE: KEEP PRETENDING / 3:12 AM.
@@ -66,7 +68,8 @@ when you act normal (feed it, pet it, call it by name).
 ### 1. RETURNED THREE TIMES (0:45–2:15), two weeks earlier
 - The shelter. Pepper is the calmest cat there. The card on his cage: *Returned 3 times. No reason given.*
 - The volunteer: "He's perfect. People just… bring him back."
-- Fact chip: *cats treat you like a big, clumsy cat.* "He sleeps on your feet. Headbutts you. Purrs when you come home."
+- Fact chip: *cats treat you like a big, clumsy cat.* "He sleeps on your feet. Headbutts you. Purrs when you come home.
+  You smell like outside, and like other people." (Narrator clue 2: an odd thing for a person to notice.)
 - Small wrongnesses, one per beat: he never makes a sound when he jumps down; his food bowl is always empty but you
   never see him eat; whenever you turn around, he's already facing you.
 - **Cliff:** a pet cam, bought "to watch him at work". The first clip the app flags: `MOTION · 03:12`.
@@ -87,38 +90,110 @@ when you act normal (feed it, pet it, call it by name).
   3. **"Never watch the camera where he can see you watching."**
   4. **"If he's in your spot on the bed, sleep somewhere else and say nothing."**
   5. **"Don't bring him back. When I brought him back, I…"** (the text breaks off).
-- Voice note from Dana, whispered, the user's voice with fx: *"He doesn't want to be a cat. He wants to be the one
-  who gets fed."*
+- No voice notes, no calls. Dana only texts. "She says she can't talk. He might hear." (Plant: Dana is never heard.)
 - **Cliff:** you look up from your phone. Pepper is sitting on the counter, watching the screen over your shoulder.
+  You lock the phone. He blinks, slowly, and goes back to sleep.
 
-### 4. THE SPOT (5:45–7:45): set piece
+### 4. THE SPOT (5:45–7:00): set piece
 - You follow the rules: same food, same lights, "good boy". The SUSPICION meter stays low.
-- Night. You wake up cold. Pepper isn't on your feet. He's on your pillow, in your spot, lying the way you lie.
-  Rule 4: you get up without a word and sleep on the sofa.
+- Night. You wake up cold. Pepper isn't on your feet. He's on your pillow, in your spot, lying the way you lie, on his
+  back, one arm over his face. Rule 4: you get up without a word and sleep on the sofa.
 - From the sofa you can see the pet cam's tiny status light. You must not check the app (rule 3).
 - You check the app under the blanket, brightness all the way down.
-- On the feed: your bed. Pepper lying in your spot. The blanket over him is the shape of a person.
-- The feed moves: the camera slowly turns toward the sofa.
-- On the camera's view, you see the sofa. You see the blanket. **You see your phone's glow under it.**
+- On the feed: your bed. The blanket over your spot is the shape of a person. Not a cat-sized lump. A person.
+- The feed moves: the camera slowly turns toward the sofa, until it shows the sofa, the blanket, and **the glow of
+  your phone under it.**
 - **Cliff:** the SUSPICION meter fills. The bedroom door creaks open in the dark. Soft footsteps, two of them, not four.
+  They stop beside the sofa. Something breathes the way people breathe when they pretend to sleep. Then, four soft paws,
+  and a cat lies down on your feet and purrs. The meter falls. It's decided to keep pretending, too.
 
-### 5. THE ACT (7:45–9:00)
-- Footsteps stop beside the sofa. You can't see it. You can hear it breathing like a person pretending to sleep.
-- You do the only thing the rules allow: you pretend. You yawn. You say "hey buddy". You reach out and pet it.
-- Under your hand: fur. Then not fur. Then fur again, as if it's deciding.
-- It purrs. It lies down on your feet, like a cat. The meter falls a little.
-- Morning. Everything is normal. Pepper wants breakfast.
-- **The answer to the big question:** an email from the shelter. "We found the intake photos you asked for." Three
-  photos of Pepper being dropped off. In each photo, the person holding the carrier is looking at the camera, smiling
-  the same smile. Not one of them looks like the adopter on the forms.
+### 5. PRACTICE (7:00–8:15): it stops watching you and starts studying you
+- Morning: everything normal. Except your mug is on the table, in front of your chair. Still warm.
+- The pet cam has new clips. He's not standing at doors anymore. He's **practising**:
+  - 03:12, the bathroom: standing on the sink, facing the mirror, straightening up, again and again, getting taller
+    each time (the sprite stretches by one art pixel per try, which is the creepiest motion in the film);
+  - 03:31, the kitchen: in your chair, at your mug, his head tilted exactly the way you tilt yours when you scroll;
+  - 03:50, your phone on the counter is playing your voice memos out loud. His mouth moves with them. No sound comes out.
+    Then, on the last memo, a sound does.
+- Beat chip: **HE'S LEARNING YOU.**
+- **Cliff:** the shelter emails the intake photos you asked for. Three drop-offs, three different years. In each photo
+  the person handing over the carrier is smiling at the camera, and **it's the same smile**. The same tilt of the head.
+  None of them look like the adopters on the forms.
 
-### ENDING (9:00–9:40)
-- "It's three eleven. You got up for water. Pepper is standing in the kitchen, facing you."
-- "And this time he says your name."
-- **NumberedChoice:** *1: SAY "HEY BUDDY"* / *2: RUN FOR THE DOOR*. Both cost something: pretend and you keep living with
-  it; run, and you've stopped pretending.
-- "Comment one or two. Your comments decide night two."
-- **End card:** KEEP PRETENDING / NIGHT 2 / 3:11 AM / FOLLOW FOR NIGHT 2.
+### 6. GIFTS (8:15–9:30): the rules were the trap
+- Fact chip: *cats bring their owners "gifts": the things they've caught.*
+- Every morning there's a gift on your pillow, in the spot.
+  - Day 1: a hair tie.
+  - Day 2: a house key on a tag that says *D. · 2B*.
+  - Day 3: a hospital wristband: *MARCUS O.* (one of the disconnected numbers).
+  - Day 4: a phone. Cracked, unlocked, 2% battery.
+- It's Dana's phone. On the screen, **your text thread, from her side.** Every rule you were sent was sent from this
+  phone. The timestamps are all 3:12 AM, the time Pepper was "asleep on your feet". The glass is covered in tiny, round
+  smudges.
+- Quick montage, each rule card flipping over to its real meaning (red underline), on beats of the drone:
+  1. *Don't react* → **don't fight back.**
+  2. *Change nothing* → **don't lock any doors.**
+  3. *Never watch the camera* → **don't see it coming.**
+  4. *Sleep somewhere else* → **give him your bed.**
+  5. *Don't bring him back* → **don't leave.**
+- "The rules were never there to keep you safe. They were there to keep you still."
+- **Cliff:** the phone dies in your hand. Behind you, in the bedroom, the pet cam's motor whirs.
+
+### 7. 3:11 AM (9:30–10:30): the run
+- You don't pack. You wait for the middle of the night, because that's when he stands up, and you want him in the
+  kitchen and you near the door.
+- 3:11. You walk past the kitchen. Pepper is on the counter, **on four legs**, purring, a perfect cat. He's pretending
+  too. You say "hey buddy". He blinks.
+- The front door. The chain. The deadbolt. You reach for your keys. They're not on the hook. (Gift for tomorrow.)
+- Your phone chimes. `MOTION · LIVING ROOM`. The live feed: you, at the door, from behind. And right behind you,
+  close enough to touch, **standing**, taller than a cat can stand, the head tilted the way you tilt yours.
+- You turn around. Nothing. The hallway is empty. Pepper is on the counter, on four legs, purring.
+- You look back at the phone. It's still there, behind you, on the feed. Closer.
+- A whisper, right next to your ear, **in your own voice**: your name.
+- Hard cut to black. One full dropout of all sound (the film's only one).
+
+### ENDING (10:30–11:30): the shelter, and the narrator
+- Daylight. The shelter. A carrier on the counter. The volunteer: "Pepper? Again? He's perfect. What happened?"
+- The person handing him over is **you**. The camera tilts up to your face. You're smiling the smile from the three
+  intake photos.
+- "Nothing happened," you say. "I just think someone else should have a turn."
+- The volunteer fills in the card: *PEPPER · Returned 4 times. No reason given.*
+- Behind the bars, the cat in the carrier is the only animal in the building that isn't calm. It's pressed against the
+  door, crying, over and over, like it's trying to say something. The volunteer: "That's weird. He's never made a sound."
+- You walk out into the sun, a little too straight, and the narrator's voice (the same voice that has told this whole
+  story) says, a little too pleased:
+  **"You never wondered why I sound like you."**
+- Last frame: the pet cam app on *your* phone, now in *its* hand. One feed left: the shelter's adoption room.
+- **End card:** KEEP PRETENDING / *PEPPER IS AVAILABLE FOR ADOPTION* / **IS YOUR CAT FACING YOU RIGHT NOW?**
+  The comment prompt is the question itself ("check, then tell me"). An optional Part 2 hook: the next adopter's name
+  on the form is left blank.
+
+## The narrator twist (why the ending lands, and why people rewatch)
+
+The narration is second person in the user's voice, like every film we make, so nobody questions it. The reveal is
+that **the narrator was Pepper all along**, talking to you in the voice it learned from your memos. That's why it
+sounds like you. Planted clues, all deniable on a first watch:
+1. Cold open: "You were very good at pretending. Everyone is, at first." (It has watched others do it.)
+2. Chapter 1: "You smell like outside, and like other people."
+3. Chapter 3: Dana never speaks, only texts. (It can't do her voice; it only has yours.)
+4. Chapter 5: the voice memos. The film's audio quietly gets *closer* to the narrator's mic from here (less room tone,
+   drier), as if the narrator is moving nearer.
+5. The narrator always knows the times exactly (03:12, 03:31, 03:50) without checking.
+
+Production note: the narrator stays the user's normal Chatterbox voice for the whole film. Only the final line gets a
+tiny change (dry, close, a hint of the `mimic` fx), so the reveal is heard as well as said.
+
+## Why this ending is scarier than the old choice
+
+- **Three escalating answers instead of one question:** what the previous adopters became (the smile), what the rules
+  really were (the trap), and who has been talking to you (the narrator).
+- **The thing you were told would save you is what doomed you.** That's the rules-horror twist audiences love to argue
+  about, and it rewards a second watch to reread the rules.
+- **The scare happens through something** (the feed), it's not there when you look, and then it is. It's the blueprint's
+  "show the threat through something" at its most effective.
+- **It ends on the viewer, not the hero.** "Is your cat facing you right now?" makes people look at their own cat, then
+  comment. It's a stronger comment prompt than a numbered choice, and it's creepy on a rewatch.
+- A choice can still be added for Part 2 if wanted: *"Would you adopt Pepper? 1: Yes / 2: No"* under the end card.
 
 ---
 
