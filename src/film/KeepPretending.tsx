@@ -73,7 +73,7 @@ const Lighting: React.FC<{mode: Light; glows?: {x: number; y: number; r: number;
 </>;
 
 // ---------- sets (positions: kit/sets_keep.py) ----------
-type SceneP = {from: number; cam: CamKey[]; light?: Light; actors?: (g: number) => Actor[]; glows?: (g: number) => {x: number; y: number; r: number; c?: string; i?: number}[];
+type SceneP = {from: number; cam: CamKey[]; light?: Light; actors?: (g: number) => Actor[]; over?: (g: number) => Actor[]; glows?: (g: number) => {x: number; y: number; r: number; c?: string; i?: number}[];
   shake?: number; children?: (g: number) => React.ReactNode};
 const scene = (src: string, defaults: Partial<SceneP> = {}) => (p: SceneP) => {
   const Comp: React.FC = () => {
@@ -84,6 +84,7 @@ const scene = (src: string, defaults: Partial<SceneP> = {}) => (p: SceneP) => {
       {defaults.children?.(g)}
       <Actors list={p.actors?.(g) ?? []} />
       {p.children?.(g)}
+      <Actors list={p.over?.(g) ?? []} />
       <Lighting mode={light} glows={p.glows?.(g) ?? (light === 'night' ? [{x: 136, y: 50, r: 30, c: 'rgba(120,150,230,1)', i: 0.3}] : [])} />
     </WorldL>;
   };
@@ -114,9 +115,9 @@ const Led: React.FC<{x: number; y: number; g: number; c?: string}> = ({x, y, g, 
 const Duvet: React.FC<{lump?: boolean; x0?: number}> = ({lump, x0 = 80}) => <>
   {lump && <div style={{position: 'absolute', left: 64, top: 80, width: 34, height: 9, borderRadius: '45% 45% 10% 10%', background: '#56688a', boxShadow: 'inset 0 2px 0 #6a7ea2'}} />}
   {lump && <div style={{position: 'absolute', left: 64, top: 77, width: 9, height: 8, borderRadius: '50%', background: '#56688a'}} />}
-  <div style={{position: 'absolute', left: x0, top: 85, width: 178 - x0, height: 8, background: 'linear-gradient(#5d6f8f, #46567a)', borderTop: '1px solid #6a7ea2'}} />
+  <div style={{position: 'absolute', left: x0, top: 78, width: 178 - x0, height: 15, background: 'linear-gradient(#5d6f8f, #46567a)', borderTop: '1px solid #6a7ea2', borderRadius: '5px 5px 0 0'}} />
 </>;
-const SofaBlanket: React.FC = () => <div style={{position: 'absolute', left: 112, top: 92, width: 46, height: 8, background: '#7a5e6e', borderTop: '1px solid #8e7282', borderRadius: 2}} />;
+const SofaBlanket: React.FC = () => <div style={{position: 'absolute', left: 126, top: 83, width: 36, height: 22, background: 'linear-gradient(#7a5e6e, #654b5a)', borderTop: '1px solid #8e7282', borderRadius: '6px 6px 2px 2px'}} />;
 /** A doorway-shaped mask (we're seeing the living room through the bedroom door). */
 const DoorMask: React.FC = () => <AbsoluteFill style={{background: '#000', WebkitMaskImage: 'linear-gradient(90deg, black 0 30%, transparent 30% 70%, black 70%)', maskImage: 'linear-gradient(90deg, black 0 30%, transparent 30% 70%, black 70%)'}} />;
 
@@ -201,7 +202,7 @@ const CHIPS = [
   {at: cut('P30'), text: ''}, {at: cut('P45'), text: 'WHO RETURNED HIM?'}, {at: wf('P46', 0), text: '2 NUMBERS DISCONNECTED', tone: 'bad' as const}, {at: cut('P48'), text: 'DANA · 2 MONTHS'},
   {at: wf('P49', 0), text: 'TEXT ONLY · "HE MIGHT HEAR"', tone: 'bad' as const}, {at: cut('P50'), text: ''},
   {at: cut('P90'), text: ''}, {at: E.warm, text: 'STILL WARM', tone: 'bad' as const}, {at: cut('P93'), text: ''}, {at: cut('P109'), text: 'CATS BRING THEIR OWNERS "GIFTS"', tone: 'fact' as const},
-  {at: cut('P116'), text: ''}, {at: cut('P131'), text: 'WAIT FOR 3:11'}, {at: cut('P134'), text: ''},
+  {at: cut('P116'), text: ''}, {at: cut('P131'), text: 'WAIT FOR 3:11'}, {at: cut('P134'), text: ''}, {at: E.empty, text: 'YOUR KEYS: GONE', tone: 'bad' as const}, {at: cut('P141'), text: ''},
 ];
 
 // ---------- the film ----------
@@ -245,7 +246,7 @@ export const KeepPretending: React.FC = () => {
     [cut('P18'), (s) => <Apt from={s} light="dusk" cam={[{at: s, x: 136, y: 92, zoom: 2.6}]} actors={() => [H('down.smile', 126, 108), P('loaf', 146, 98)]} />],
     [cut('P19'), (s) => <Apt from={s} light="dusk" cam={[{at: s, x: 140, y: 92, zoom: 2.2}, {at: cut('P21'), x: 134, y: 92, zoom: 2.6}]}
       actors={(g) => [H(g < wf('P20', 1) ? 'down.neutral' : 'down.smile', 124, 108), P('sit', 140, 98)]} />],
-    [cut('P21'), (s) => <Bed from={s} light="dusk" cam={[{at: s, x: 118, y: 84, zoom: 2.3}]} actors={() => [H('down.smile', 100, 86, {rot: -90}), P('sleep', 160, 88)]}
+    [cut('P21'), (s) => <Bed from={s} light="dusk" cam={[{at: s, x: 118, y: 84, zoom: 2.3}]} actors={() => [H('down.smile', 100, 86, {rot: -90})]} over={() => [P('sleep', 160, 79)]}
       children={() => <Duvet />} glows={() => [{x: 120, y: 80, r: 40, i: 0.3}]} />],
     [wf('P21', 4) - 2, (s) => <Apt from={s} light="dusk" cam={[{at: s, x: 120, y: 98, zoom: 4}]} actors={() => [H('reach.smile', 116, 112), P('rub', 130, 112, {flip: true})]} />],
     [wf('P21', 8) - 2, (s) => <Apt from={s} light="dusk" cam={[{at: s, x: 190, y: 90, zoom: 2.6}]} actors={() => [H('open.smile', 197, 112), P('sit', 180, 112)]} />],
@@ -319,33 +320,33 @@ export const KeepPretending: React.FC = () => {
     // ===== 4. THE SPOT
     [cut('P63'), (s) => <Apt from={s} light="dusk" cam={[{at: s, x: 46, y: 100, zoom: 4}]} actors={() => [K('bowl_full', 32, 113), P('eat', 44, 112, {flip: true})]} />],
     [cut('P64'), (s) => <Apt from={s} light="dusk" cam={[{at: s, x: 134, y: 94, zoom: 2.6}]} actors={() => [H('reach.smile', 124, 108), P('content', 142, 98)]} />],
-    [cut('P65'), (s) => <Bed from={s} cam={[{at: s, x: 120, y: 82, zoom: 2.2}]} actors={() => [H('down.neutral', 100, 86, {rot: -90}), P('sleep', 160, 88)]} children={() => <Duvet />} />],
+    [cut('P65'), (s) => <Bed from={s} cam={[{at: s, x: 120, y: 82, zoom: 2.2}]} actors={() => [H('down.neutral', 100, 86, {rot: -90})]} over={() => [P('sleep', 160, 79)]} children={() => <Duvet />} />],
     [cut('P66'), (s) => <Bed from={s} cam={[{at: s, x: 120, y: 84, zoom: 2.6}, {at: cut('P68'), x: 120, y: 84, zoom: 3}]} actors={(g) => [H(g < E.cold ? 'down.neutral' : 'down.worried', 152, 86, {rot: -90}), P('bed_person', 74, 88)]} children={() => <Duvet x0={130} />} />],
     [cut('P68'), (s) => <Bed from={s} cam={[{at: s, x: 108, y: 84, zoom: 2.4}, {at: we('P70'), x: 96, y: 84, zoom: 2.9}]} actors={() => [P('bed_person', 74, 88), H('down.worried', 152, 86, {rot: -90})]}
       children={() => <Duvet x0={130} />} glows={() => [{x: 76, y: 82, r: 14, i: 0.4}]} />],
     [cut('P71'), (s) => <Bed from={s} cam={[{at: s, x: 140, y: 80, zoom: 2.2}]} actors={(g) => [P('bed_person', 74, 88),
       H(walkFrame(g, 6) + '.scared', Math.min(206, 150 + Math.max(0, g - wf('P71', 4)) * 0.5), 112)]} children={() => <Duvet x0={130} />} />],
-    [cut('P72'), (s) => <Apt from={s} light="night" cam={[{at: s, x: 170, y: 88, zoom: 2.2}]} actors={() => [H('down.worried', 118, 96, {rot: -90})]}
+    [cut('P72'), (s) => <Apt from={s} light="night" cam={[{at: s, x: 170, y: 88, zoom: 2.2}]} actors={() => [H('down.worried', 156, 96, {rot: -90})]}
       children={(g) => <><SofaBlanket /><Led x={230} y={66} g={g} /></>} glows={() => [{x: 120, y: 90, r: 20, i: 0.25}]} />],
-    [cut('P74'), (s) => <Apt from={s} light="night" cam={[{at: s, x: 128, y: 94, zoom: 4.5}]} actors={() => [H('down.worried', 118, 96, {rot: -90})]}
-      children={(g) => <><SofaBlanket />{g >= E.check && <Glow x={128} y={94} r={9} color="rgba(160,215,255,1)" intensity={0.9} />}</>} />],
+    [cut('P74'), (s) => <Apt from={s} light="night" cam={[{at: s, x: 126, y: 92, zoom: 2.8}, {at: s + 120, x: 126, y: 93, zoom: 3.2}]} actors={() => [H('down.worried', 156, 96, {rot: -90})]}
+      children={(g) => <><SofaBlanket />{g >= E.check && <Glow x={136} y={94} r={9} color="rgba(160,215,255,1)" intensity={0.9} />}</>} />],
     [cut('P76'), (s) => <PetCamFeed clock="03:12:40" label="KITCHEN CAM" live><Bed from={s} light="dusk" cam={[{at: s, x: 110, y: 82, zoom: 1.6}, {at: E.person, x: 84, y: 84, zoom: 2.6},
       {at: E.person + 3, x: 80, y: 84, zoom: 3.6, ease: Easing.out(Easing.cubic)}]} children={() => <Duvet lump x0={98} />} /></PetCamFeed>, 'feed'],
     [cut('P80'), (s) => {
       const t = interpolate(f, [E.pan - 6, E.pan + 10], [0, 1], clamp);
       return <PetCamFeed clock="03:12:52" label="KITCHEN CAM" live>
         {t < 0.5 ? <Bed from={s} light="dusk" cam={[{at: s, x: 80 + t * 300, y: 84, zoom: 3.2}]} children={() => <Duvet lump x0={98} />} />
-          : <><Apt from={s} light="night" cam={[{at: s, x: 134 - (1 - t) * 120, y: 94, zoom: 3.2}, {at: s + 200, x: 132, y: 94, zoom: 4}]} actors={() => [H('down.worried', 118, 96, {rot: -90})]}
-            children={() => <><SofaBlanket /><Glow x={128} y={94} r={9} color="rgba(160,215,255,1)" intensity={1.2} /></>} /><DoorMask /></>}
+          : <><Apt from={s} light="night" cam={[{at: s, x: 134 - (1 - t) * 120, y: 94, zoom: 3.2}, {at: s + 200, x: 132, y: 94, zoom: 4}]} actors={() => [H('down.worried', 156, 96, {rot: -90})]}
+            children={() => <><SofaBlanket /><Glow x={136} y={94} r={9} color="rgba(160,215,255,1)" intensity={1.2} /></>} /><DoorMask /></>}
         {t > 0.05 && t < 0.95 && <AbsoluteFill style={{backdropFilter: 'blur(14px)'}} />}
       </PetCamFeed>;
     }, 'feed'],
     [cut('P83'), (s) => <Apt from={s} light="dark" cam={[{at: s, x: 200, y: 84, zoom: 2.6}, {at: cut('P86'), x: 190, y: 88, zoom: 3}]} shake={0.15}
       children={(g) => <><Led x={230} y={66} g={g} />{g >= E.creak && <div style={{position: 'absolute', left: 222, top: 48, width: interpolate(g, [E.creak, E.creak + 30], [0, 6], clamp), height: 64, background: 'rgba(0,0,0,0.6)'}} />}</>} />],
-    [cut('P86'), (s) => <Apt from={s} light="dark" cam={[{at: s, x: 112, y: 92, zoom: 4.6}, {at: cut('P88'), x: 110, y: 90, zoom: 5}]}
-      actors={(g) => [H('down.scared', 118, 96, {rot: -90, blink: false}), ...(g >= E.breath - 20 ? [P('dark', 104, 112, {op: 0.55})] : [])]} children={() => <SofaBlanket />} />],
-    [cut('P88'), (s) => <Apt from={s} light="night" cam={[{at: s, x: 140, y: 94, zoom: 3.6}]} actors={(g) => [H('down.scared', 118, 96, {rot: -90, blink: false}),
-      ...(g >= E.paws ? [P(g < E.paws + 20 ? 'crouch' : 'sleep', 150, 94)] : [])]} children={() => <SofaBlanket />} glows={() => [{x: 140, y: 90, r: 20, i: 0.3}]} />],
+    [cut('P86'), (s) => <Apt from={s} light="dark" cam={[{at: s, x: 124, y: 92, zoom: 4.2}, {at: cut('P88'), x: 122, y: 90, zoom: 4.6}]}
+      actors={(g) => [H('down.scared', 156, 96, {rot: -90, blink: false}), ...(g >= E.breath - 20 ? [P('dark', 114, 112, {op: 0.55})] : [])]} children={() => <SofaBlanket />} />],
+    [cut('P88'), (s) => <Apt from={s} light="night" cam={[{at: s, x: 140, y: 94, zoom: 3.6}]} actors={(g) => [H('down.scared', 156, 96, {rot: -90, blink: false}),
+    ]} over={(g) => (g >= E.paws ? [P(g < E.paws + 20 ? 'crouch' : 'sleep', 154, 84)] : [])} children={() => <SofaBlanket />} glows={() => [{x: 140, y: 90, r: 20, i: 0.3}]} />],
 
     // ===== 5. PRACTICE
     [cut('P90'), (s) => <Apt from={s} light="day" cam={[{at: s, x: 110, y: 90, zoom: 1.6}, {at: cut('P91'), x: 92, y: 92, zoom: 3.2}, {at: E.warm + 30, x: 89, y: 92, zoom: 5}]}
@@ -381,7 +382,7 @@ export const KeepPretending: React.FC = () => {
     [cut('P113'), () => <Gift item="wristband" label="MARCUS O." labelAt={E.gift3 - cut('P113') + 12} />, 'insert'],
     [cut('P114'), () => <Gift item="phone_cracked" label="2%" labelAt={wf('P115', 4) - cut('P114')} />, 'insert'],
     [cut('P116'), (s) => <><AbsoluteFill style={{background: 'radial-gradient(60% 60% at 70% 50%, #1b2030, #050608)'}} />
-      <Phone at={-99} x={710}><Thread name="New adopter (4C)" sub="Dana's phone" msgs={[
+      <Phone at={-99}><Thread name="New adopter (4C)" sub="Dana's phone" msgs={[
         {at: -99, text: 'Did he stand up yet?', out: true, time: '3:12 AM'},
         {at: -99, text: "Don't react. Whatever he's doing, he's a cat. Talk to him like a cat.", out: true, time: '3:12 AM'},
         {at: -99, text: "Don't change anything. Same food, same time, same lights. He notices.", out: true, time: '3:12 AM'},
@@ -391,7 +392,7 @@ export const KeepPretending: React.FC = () => {
       ]} />
         {f >= E.smudges && Array.from({length: 18}, (_, k) => <div key={k} style={{position: 'absolute', left: 30 + ((k * 97) % 380), top: 80 + ((k * 151) % 760), width: 34, height: 30,
           borderRadius: '50%', background: 'rgba(255,255,255,0.10)', boxShadow: '0 0 0 2px rgba(255,255,255,0.05)', opacity: Math.min(1, (f - E.smudges) / 20)}} />)}
-      </Phone></>, 'insert'],
+      </Phone></>, 'phone'],
     [cut('P121'), () => <><AbsoluteFill style={{background: 'radial-gradient(70% 60% at 50% 45%, #1a0c10, #050608)'}} />
       <RuleFlip rules={[{at: cut('P122') - cut('P121'), flip: E.flip1 - cut('P121'), was: "DON'T REACT", is: "DON'T FIGHT BACK"},
         {at: cut('P123') - cut('P121'), flip: E.flip2 - cut('P121'), was: 'CHANGE NOTHING', is: "DON'T LOCK THE DOORS"},
@@ -407,7 +408,7 @@ export const KeepPretending: React.FC = () => {
     [cut('P134'), (s) => <Apt from={s} light="night" cam={[{at: s, x: 70, y: 92, zoom: 2.4}, {at: cut('P138'), x: 120, y: 92, zoom: 2.2}]}
       actors={(g) => [P(g >= wf('P137', 4) && g < wf('P137', 4) + 12 ? 'blink' : 'content', 56, 88), H(walkFrame(g, 6) + (g < wf('P137', 0) ? '.worried' : '.scared'), 30 + (g - s) * 0.35, 112)]}
       glows={() => [{x: 56, y: 80, r: 14, i: 0.35}]} />],
-    [cut('P138'), (s) => <Apt from={s} light="night" cam={[{at: s, x: 200, y: 76, zoom: 4.2}, {at: cut('P140'), x: 210, y: 78, zoom: 5}, {at: E.empty + 2, x: 214, y: 78, zoom: 8, ease: Easing.out(Easing.cubic)}]}
+    [cut('P138'), (s) => <Apt from={s} light="night" cam={[{at: s, x: 200, y: 76, zoom: 4.2}, {at: cut('P140'), x: 210, y: 78, zoom: 5}, {at: E.empty + 2, x: 212, y: 80, zoom: 6, ease: Easing.out(Easing.cubic)}]}
       actors={() => [H('turn0.scared', 200, 112, {blink: false})]} children={() => <Keys on={false} />} glows={() => [{x: 205, y: 80, r: 18, i: 0.35}]} />],
     [cut('P141'), (s) => <><Apt from={s} light="night" cam={[{at: s, x: 200, y: 90, zoom: 2.8}]} actors={() => [H('turn0.scared', 200, 112, {blink: false})]} />
       <Phone at={0} x={1300}><CamNotice at={L(E.buzz, s)} title="Motion · Living room" sub="Kitchen cam · LIVE" red /></Phone></>, 'phone'],
