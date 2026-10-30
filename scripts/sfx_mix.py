@@ -315,6 +315,62 @@ FX = {'hum': fx_hum, 'rattle': fx_rattle, 'neon': fx_neon, 'static': fx_static, 
       'engine': fx_engine, 'whoosh': fx_whoosh, 'chime': fx_chime, 'chirp': fx_chirp, 'door': fx_door, 'thump': fx_thump, 'scrape': fx_scrape}
 
 
+
+# ---- KEEP PRETENDING ----
+def fx_purr(dur=3.0, rate=25.0, breath=0.55):
+    """Cat purr: a ~25 Hz pulse train through a low body resonance, louder on the in/out breath."""
+    n = int(dur * SR); t = np.arange(n) / SR
+    pulses = (np.sin(2 * np.pi * rate * t) > 0.6).astype(float) * rng.uniform(0.7, 1.0, n)
+    body = lowpass(pulses + lowpass(rng.standard_normal(n), 400) * 0.25, 600)
+    br = 0.55 + 0.45 * np.abs(np.sin(np.pi * breath * t))
+    return _fade(body * br * 0.9, 0.3, 0.4)
+
+
+def fx_purr_wrong(dur=4.0):
+    """The purr that's wrong: too slow and too even, like someone saying 'purr'."""
+    n = int(dur * SR); t = np.arange(n) / SR
+    pulses = (np.sin(2 * np.pi * 11 * t) > 0.2).astype(float)
+    voiced = np.sin(2 * np.pi * 98 * t) * 0.35 + np.sin(2 * np.pi * 196 * t) * 0.15
+    return _fade(lowpass(pulses * (0.6 + voiced), 700) * 0.9, 0.4, 0.5)
+
+
+def fx_creak(dur=1.4):
+    """Door hinge creak: a stick-slip buzz whose pitch wanders down."""
+    n = int(dur * SR); t = np.arange(n) / SR
+    f = 260 - 90 * t / dur + 25 * np.sin(2 * np.pi * 1.3 * t)
+    saw = 2 * ((np.cumsum(f) / SR) % 1) - 1
+    grain = (rng.random(n) < 0.35).astype(float)
+    x = _sos(saw * grain, 'band', [400, 2600]) * (0.5 + 0.5 * np.sin(np.pi * t / dur))
+    return _fade(x * 0.6, 0.05, 0.15)
+
+
+def fx_motor(dur=1.6):
+    """Pet-cam pan motor: a thin servo whine with gear ripple."""
+    n = int(dur * SR); t = np.arange(n) / SR
+    f = 820 + 40 * np.sin(2 * np.pi * 0.7 * t)
+    x = np.sin(2 * np.pi * np.cumsum(f) / SR) * (0.6 + 0.4 * np.sign(np.sin(2 * np.pi * 38 * t)))
+    return _fade(_sos(x, 'band', [500, 3000]) * 0.25, 0.08, 0.12)
+
+
+def fx_meow(dur=0.9):
+    """Distant shelter cry: a voiced vowel sweep (no samples)."""
+    n = int(dur * SR); t = np.arange(n) / SR
+    f0 = 480 + 260 * np.sin(np.pi * t / dur) * (1 + 0.04 * rng.standard_normal())
+    src = np.sign(np.sin(2 * np.pi * np.cumsum(f0) / SR)) * 0.5
+    x = _sos(src, 'band', [700, 2400]) * np.sin(np.pi * t / dur) ** 1.5
+    return x * 0.35
+
+
+def fx_pad(dur=0.5):
+    """One soft footfall on carpet/wood (pair it: four paws = quick pairs, two legs = slow singles)."""
+    n = int(0.16 * SR); t = np.arange(n) / SR
+    s = np.sin(2 * np.pi * (110 - 50 * t / 0.16) * t) * np.exp(-t / 0.035) + lowpass(rng.standard_normal(n), 900) * np.exp(-t / 0.02) * 0.4
+    out = np.zeros(int(dur * SR)); out[:n] += s
+    return lowpass(out, 700)
+
+
+FX.update({'purr': fx_purr, 'purr_wrong': fx_purr_wrong, 'creak': fx_creak, 'motor': fx_motor, 'meow': fx_meow, 'pad': fx_pad})
+
 def bed(length, swells, cut, dips=()):
     n = int(length * SR); t = np.arange(n) / SR
     d = 0.55 * np.sin(2 * np.pi * 55 * t) + 0.35 * np.sin(2 * np.pi * 55.7 * t) + 0.25 * np.sin(2 * np.pi * 82.4 * t + 0.4 * np.sin(2 * np.pi * 0.2 * t))

@@ -1,0 +1,857 @@
+{
+ "_format": "Each line is one Chatterbox take. Tokens split on spaces. [shown=spoken] gives a spoken form (underscores = spaces). Suffix *y = yellow keyword, *r = red keyword, *g = green (safe). A trailing / ends a caption phrase. fx: volunteer = the shelter volunteer (narrator pitched up, clean); whisper = 'Hey, buddy' at your ear (thin, close, breathy); pepper = the narrator reveal (dry, very close, a hair lower). pause = silence after the line (s).",
+ "title": "KEEP PRETENDING",
+ "lines": [
+  {
+   "id": "P01",
+   "text": "You got up for water at [3:12=three_twelve],/ and your cat*y was standing in the kitchen./",
+   "pause": 0.5
+  },
+  {
+   "id": "P02",
+   "text": "Not sitting.*y/ Standing.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "P03",
+   "text": "Up on his back legs,/ straight as a person/ waiting for something./",
+   "pause": 0.5
+  },
+  {
+   "id": "P04",
+   "text": "He was looking at the fridge.*y/",
+   "pause": 0.35
+  },
+  {
+   "id": "P05",
+   "text": "Then he turned his head,/ and looked at you.*r/",
+   "pause": 1.0
+  },
+  {
+   "id": "P06",
+   "text": "And you did what everyone does./",
+   "pause": 0.3
+  },
+  {
+   "id": "P07",
+   "text": "You said, \"Hey, buddy.\"*y/ You got your water,/ and you went back to bed./",
+   "pause": 0.6
+  },
+  {
+   "id": "P08",
+   "text": "You were very good at pretending.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "P09",
+   "text": "Everyone is,/ at first./",
+   "pause": 2.4
+  },
+  {
+   "id": "P10",
+   "text": "Two weeks earlier.*y/",
+   "pause": 0.5
+  },
+  {
+   "id": "P11",
+   "text": "The animal shelter*y is loud./ Every cat is crying,/ pacing,/ pressed against the bars./",
+   "pause": 0.4
+  },
+  {
+   "id": "P12",
+   "text": "Except one./",
+   "pause": 0.4
+  },
+  {
+   "id": "P13",
+   "text": "A grey tuxedo*y with white socks,/ sitting perfectly still,/ watching you./",
+   "pause": 0.45
+  },
+  {
+   "id": "P14",
+   "text": "The card on his cage says Pepper.*y/",
+   "pause": 0.3
+  },
+  {
+   "id": "P15",
+   "text": "And under it:/ returned three times.*r/ No reason given.*r/",
+   "pause": 0.6
+  },
+  {
+   "id": "P16",
+   "text": "The volunteer laughs./",
+   "pause": 0.15
+  },
+  {
+   "id": "P16b",
+   "text": "\"He's perfect.*g/ People just bring him back.\"/",
+   "pause": 0.6,
+   "fx": "volunteer"
+  },
+  {
+   "id": "P17",
+   "text": "You take him home that night./",
+   "pause": 0.5
+  },
+  {
+   "id": "P18",
+   "text": "And for a week,/ he's the best cat you've ever had./",
+   "pause": 0.45
+  },
+  {
+   "id": "P19",
+   "text": "Scientists say*y cats don't see you as a person./",
+   "pause": 0.3
+  },
+  {
+   "id": "P20",
+   "text": "They see a big,/ clumsy cat.*y/",
+   "pause": 0.5
+  },
+  {
+   "id": "P21",
+   "text": "Pepper sleeps on your feet.*g/ He headbutts your hand.*g/ He purrs when you come home./",
+   "pause": 0.4
+  },
+  {
+   "id": "P22",
+   "text": "You smell like outside,/ and like other people.*r/",
+   "pause": 0.9
+  },
+  {
+   "id": "P23",
+   "text": "But there are little things./",
+   "pause": 0.4
+  },
+  {
+   "id": "P24",
+   "text": "He never makes a sound*y/ when he jumps down./",
+   "pause": 0.35
+  },
+  {
+   "id": "P25",
+   "text": "His bowl is always empty,*y/ but you never see him eat./",
+   "pause": 0.35
+  },
+  {
+   "id": "P26",
+   "text": "And when you turn around,/ he's already facing you.*r/",
+   "pause": 0.7
+  },
+  {
+   "id": "P27",
+   "text": "So you buy a pet camera.*y/ Just to watch him/ while you're at work./",
+   "pause": 0.4
+  },
+  {
+   "id": "P28",
+   "text": "On the first morning,/ the app has one clip for you./",
+   "pause": 0.3
+  },
+  {
+   "id": "P29",
+   "text": "Motion.*r/ [3:12=three_twelve]*r [AM=A_M].*r/",
+   "pause": 1.3
+  },
+  {
+   "id": "P30",
+   "text": "The video is green and grainy./ Night vision.*y/",
+   "pause": 0.4
+  },
+  {
+   "id": "P31",
+   "text": "[3:12.=Three_twelve.]/ Pepper walks into the kitchen/ on four legs./",
+   "pause": 0.4
+  },
+  {
+   "id": "P32",
+   "text": "[3:13.=Three_thirteen.]/ He sits./",
+   "pause": 0.4
+  },
+  {
+   "id": "P33",
+   "text": "[3:14.=Three_fourteen.]/ He stands up.*r/",
+   "pause": 0.6
+  },
+  {
+   "id": "P34",
+   "text": "Not like a cat reaching for something./ Like a person getting out of a chair.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "P35",
+   "text": "And he walks out of the frame/ on two legs.*r/",
+   "pause": 0.9
+  },
+  {
+   "id": "P36",
+   "text": "You scrub forward./",
+   "pause": 0.3
+  },
+  {
+   "id": "P37",
+   "text": "From [3:20=three_twenty]/ until [4:05,=four_oh_five,]/ he stands outside your bedroom door.*y/",
+   "pause": 0.4
+  },
+  {
+   "id": "P38",
+   "text": "Forty-five minutes.*r/ Not moving./ Not even his tail./",
+   "pause": 0.5
+  },
+  {
+   "id": "P39",
+   "text": "At [4:06,=four_oh_six,]/ he turns around,/ and looks right into the camera.*r/",
+   "pause": 1.1
+  },
+  {
+   "id": "P40",
+   "text": "That night you don't sleep./",
+   "pause": 0.4
+  },
+  {
+   "id": "P41",
+   "text": "And in the morning,/ Pepper headbutts your hand,/ purrs,/ and asks for breakfast,/ like always.*g/",
+   "pause": 0.5
+  },
+  {
+   "id": "P42",
+   "text": "Then your phone buzzes./",
+   "pause": 0.3
+  },
+  {
+   "id": "P43",
+   "text": "Camera moved.*r/ [4:07=Four_oh_seven] [AM.=A_M.]/",
+   "pause": 0.4
+  },
+  {
+   "id": "P44",
+   "text": "You open the app./ It's pointing at your bed.*r/",
+   "pause": 1.3
+  },
+  {
+   "id": "P45",
+   "text": "You call the shelter,/ and ask about the people who brought him back./",
+   "pause": 0.4
+  },
+  {
+   "id": "P46",
+   "text": "Two of the numbers are disconnected.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "P47",
+   "text": "The third one doesn't answer.*y/ But an hour later,/ it texts you./",
+   "pause": 0.4
+  },
+  {
+   "id": "P48",
+   "text": "It's Dana.*y/ She had him for two months./",
+   "pause": 0.4
+  },
+  {
+   "id": "P49",
+   "text": "She says she can't talk.*r/ He might hear./",
+   "pause": 0.7
+  },
+  {
+   "id": "P50",
+   "text": "Then the messages come,/ one at a time./",
+   "pause": 0.5
+  },
+  {
+   "id": "P51",
+   "text": "Did he stand up yet?*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "P52",
+   "text": "Don't react.*r/ Whatever he's doing,/ he's a cat.*y/ Talk to him like a cat./",
+   "pause": 0.6
+  },
+  {
+   "id": "P53",
+   "text": "Don't change anything.*r/ Same food.*y/ Same time.*y/ Same lights.*y/ He notices.*r/",
+   "pause": 0.6
+  },
+  {
+   "id": "P54",
+   "text": "Never watch the camera*r/ where he can see you watching./",
+   "pause": 0.6
+  },
+  {
+   "id": "P55",
+   "text": "If he's in your spot on the bed,/ sleep somewhere else.*r/ Say nothing./",
+   "pause": 0.6
+  },
+  {
+   "id": "P56",
+   "text": "And don't bring him back.*r/",
+   "pause": 0.3
+  },
+  {
+   "id": "P57",
+   "text": "When I brought him back,/ I.../",
+   "pause": 1.1
+  },
+  {
+   "id": "P58",
+   "text": "That's it./ That's the last message./",
+   "pause": 0.6
+  },
+  {
+   "id": "P59",
+   "text": "You look up from your phone./",
+   "pause": 0.3
+  },
+  {
+   "id": "P60",
+   "text": "Pepper is on the counter,*y/ right behind you,/ looking at the screen.*r/",
+   "pause": 0.6
+  },
+  {
+   "id": "P61",
+   "text": "You lock it./",
+   "pause": 0.3
+  },
+  {
+   "id": "P62",
+   "text": "He blinks,/ slowly,/ and goes back to sleep./",
+   "pause": 1.3
+  },
+  {
+   "id": "P63",
+   "text": "So you follow the rules.*g/",
+   "pause": 0.3
+  },
+  {
+   "id": "P64",
+   "text": "Same food.*g/ Same lights.*g/ \"Good boy.\"/",
+   "pause": 0.4
+  },
+  {
+   "id": "P65",
+   "text": "And it works./ For three nights,/ he's just a cat./",
+   "pause": 0.6
+  },
+  {
+   "id": "P66",
+   "text": "On the fourth night,/ you wake up cold.*y/",
+   "pause": 0.4
+  },
+  {
+   "id": "P67",
+   "text": "Pepper isn't on your feet./",
+   "pause": 0.4
+  },
+  {
+   "id": "P68",
+   "text": "He's on your pillow.*r/ In your spot.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "P69",
+   "text": "On his back,/ one arm*r across his face./",
+   "pause": 0.3
+  },
+  {
+   "id": "P70",
+   "text": "The way you sleep.*r/",
+   "pause": 0.8
+  },
+  {
+   "id": "P71",
+   "text": "Rule four.*y/ You get up without a word,/ and take the sofa.*y/",
+   "pause": 0.6
+  },
+  {
+   "id": "P72",
+   "text": "From the sofa,/ you can see the camera's little light./",
+   "pause": 0.3
+  },
+  {
+   "id": "P73",
+   "text": "Rule three says don't check it.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "P74",
+   "text": "You check it.*r/",
+   "pause": 0.3
+  },
+  {
+   "id": "P75",
+   "text": "Under the blanket,/ brightness all the way down./",
+   "pause": 0.5
+  },
+  {
+   "id": "P76",
+   "text": "On the screen,/ your bed.*y/",
+   "pause": 0.3
+  },
+  {
+   "id": "P77",
+   "text": "Under the duvet,/ there's a shape in your spot./",
+   "pause": 0.3
+  },
+  {
+   "id": "P78",
+   "text": "Not a cat-sized lump.*y/",
+   "pause": 0.3
+  },
+  {
+   "id": "P79",
+   "text": "A person.*r/",
+   "pause": 1.1
+  },
+  {
+   "id": "P80",
+   "text": "Then the picture moves./",
+   "pause": 0.3
+  },
+  {
+   "id": "P81",
+   "text": "The camera is turning,/ slowly,/ away from the bed,/ and toward the sofa./",
+   "pause": 0.4
+  },
+  {
+   "id": "P82",
+   "text": "Toward the blanket./ Toward the little glow*r/ of your phone underneath it./",
+   "pause": 1.0
+  },
+  {
+   "id": "P83",
+   "text": "The bedroom door creaks.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "P84",
+   "text": "Footsteps.*r/ Soft ones./",
+   "pause": 0.4
+  },
+  {
+   "id": "P85",
+   "text": "Two of them./ Not four.*r/",
+   "pause": 0.9
+  },
+  {
+   "id": "P86",
+   "text": "They stop beside the sofa./",
+   "pause": 0.4
+  },
+  {
+   "id": "P87",
+   "text": "Something is breathing next to you./ Slow and even,/ the way people breathe/ when they're pretending to sleep.*r/",
+   "pause": 0.9
+  },
+  {
+   "id": "P88",
+   "text": "Then four soft paws*g/ land on the cushion,/ and a cat lies down on your feet,/ and purrs./",
+   "pause": 0.7
+  },
+  {
+   "id": "P89",
+   "text": "He's decided/ to keep pretending, too.*r/",
+   "pause": 1.5
+  },
+  {
+   "id": "P90",
+   "text": "In the morning,/ everything is normal./",
+   "pause": 0.4
+  },
+  {
+   "id": "P91",
+   "text": "Except your mug*y is on the table,/ in front of your chair./",
+   "pause": 0.3
+  },
+  {
+   "id": "P92",
+   "text": "And it's still warm.*r/",
+   "pause": 0.9
+  },
+  {
+   "id": "P93",
+   "text": "There are new clips./",
+   "pause": 0.3
+  },
+  {
+   "id": "P94",
+   "text": "But he isn't standing at doors anymore.*y/",
+   "pause": 0.4
+  },
+  {
+   "id": "P95",
+   "text": "He's practising.*r/",
+   "pause": 1.0
+  },
+  {
+   "id": "P96",
+   "text": "[3:12.=Three_twelve.]/ The bathroom.*y/ He's standing on the sink,/ facing the mirror.*y/",
+   "pause": 0.3
+  },
+  {
+   "id": "P97",
+   "text": "He straightens up./ Again./ And again./",
+   "pause": 0.3
+  },
+  {
+   "id": "P98",
+   "text": "Every time,/ a little taller.*r/",
+   "pause": 0.8
+  },
+  {
+   "id": "P99",
+   "text": "[3:31.=Three_thirty-one.]/ The kitchen.*y/ He's sitting in your chair,/ at your mug,/ with his head tilted/ the way you tilt yours/ when you scroll.*r/",
+   "pause": 0.7
+  },
+  {
+   "id": "P100",
+   "text": "[3:50.=Three_fifty.]/ Your old phone on the counter/ is playing your voice memos*y out loud./",
+   "pause": 0.4
+  },
+  {
+   "id": "P101",
+   "text": "His mouth*r is moving with them./ No sound comes out./",
+   "pause": 0.4
+  },
+  {
+   "id": "P102",
+   "text": "Until the last one.*r/",
+   "pause": 1.3
+  },
+  {
+   "id": "P103",
+   "text": "That afternoon,/ the shelter emails you./ The drop-off photos*y you asked for./",
+   "pause": 0.4
+  },
+  {
+   "id": "P104",
+   "text": "Three people,/ three different years,/ each handing a carrier over the counter./",
+   "pause": 0.4
+  },
+  {
+   "id": "P105",
+   "text": "Each one smiling at the camera./",
+   "pause": 0.4
+  },
+  {
+   "id": "P106",
+   "text": "The same smile.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "P107",
+   "text": "The same little tilt of the head.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "P108",
+   "text": "And not one of them/ looks like the person on the adoption form.*r/",
+   "pause": 1.5
+  },
+  {
+   "id": "P109",
+   "text": "Cats bring their owners gifts.*y/ The things they've caught./",
+   "pause": 0.6
+  },
+  {
+   "id": "P110",
+   "text": "Every morning now,/ there's one on your pillow./ In the spot./",
+   "pause": 0.5
+  },
+  {
+   "id": "P111",
+   "text": "Day one:/ a hair tie.*y/",
+   "pause": 0.4
+  },
+  {
+   "id": "P112",
+   "text": "Day two:/ a house key,*y/ on a tag that says/ [D,=D_,]*r [2B.=two_B.]*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "P113",
+   "text": "Day three:/ a hospital wristband.*y/ Marcus O.*r/ One of the disconnected numbers./",
+   "pause": 0.6
+  },
+  {
+   "id": "P114",
+   "text": "Day four:/ a phone.*r/",
+   "pause": 0.3
+  },
+  {
+   "id": "P115",
+   "text": "Cracked.*y/ Unlocked.*y/ Two percent battery.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "P116",
+   "text": "It's Dana's phone.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "P117",
+   "text": "And on the screen,/ is your conversation.*y/ From her side./",
+   "pause": 0.5
+  },
+  {
+   "id": "P118",
+   "text": "Every rule you were sent,/ was sent from this phone./",
+   "pause": 0.4
+  },
+  {
+   "id": "P119",
+   "text": "All of them at [3:12.=three_twelve.]*r/ While Pepper was asleep/ on your feet./",
+   "pause": 0.4
+  },
+  {
+   "id": "P120",
+   "text": "The glass is covered in tiny,/ round smudges.*r/",
+   "pause": 1.0
+  },
+  {
+   "id": "P121",
+   "text": "You read the rules again./",
+   "pause": 0.5
+  },
+  {
+   "id": "P122",
+   "text": "Don't react.*y/ Don't fight back.*r/",
+   "pause": 0.45
+  },
+  {
+   "id": "P123",
+   "text": "Change nothing.*y/ Don't lock the doors.*r/",
+   "pause": 0.45
+  },
+  {
+   "id": "P124",
+   "text": "Never watch the camera.*y/ Don't see it coming.*r/",
+   "pause": 0.45
+  },
+  {
+   "id": "P125",
+   "text": "Sleep somewhere else.*y/ Give him your bed.*r/",
+   "pause": 0.45
+  },
+  {
+   "id": "P126",
+   "text": "Don't bring him back.*y/ Don't leave.*r/",
+   "pause": 0.9
+  },
+  {
+   "id": "P127",
+   "text": "The rules were never there/ to keep you safe./",
+   "pause": 0.4
+  },
+  {
+   "id": "P128",
+   "text": "They were there/ to keep you still.*r/",
+   "pause": 1.1
+  },
+  {
+   "id": "P129",
+   "text": "The phone dies in your hand./",
+   "pause": 0.4
+  },
+  {
+   "id": "P130",
+   "text": "And in the bedroom,/ the camera's motor*r whirs./",
+   "pause": 1.5
+  },
+  {
+   "id": "P131",
+   "text": "You don't pack./",
+   "pause": 0.3
+  },
+  {
+   "id": "P132",
+   "text": "You wait for the middle of the night,/ because that's when he stands up,/ and you want him in the kitchen/ while you're at the door.*y/",
+   "pause": 0.6
+  },
+  {
+   "id": "P133",
+   "text": "[3:11.=Three_eleven.]*r/",
+   "pause": 0.6
+  },
+  {
+   "id": "P134",
+   "text": "You walk past the kitchen./",
+   "pause": 0.3
+  },
+  {
+   "id": "P135",
+   "text": "Pepper is on the counter,/ on all four legs,/ purring.*g/",
+   "pause": 0.4
+  },
+  {
+   "id": "P136",
+   "text": "A perfect cat./",
+   "pause": 0.4
+  },
+  {
+   "id": "P137",
+   "text": "You say, \"Hey, buddy.\"/ He blinks./",
+   "pause": 0.7
+  },
+  {
+   "id": "P138",
+   "text": "The front door.*y/ The chain.*y/ The deadbolt.*y/",
+   "pause": 0.4
+  },
+  {
+   "id": "P139",
+   "text": "You reach for your keys.*y/",
+   "pause": 0.4
+  },
+  {
+   "id": "P140",
+   "text": "The hook is empty.*r/",
+   "pause": 1.1
+  },
+  {
+   "id": "P141",
+   "text": "Your phone buzzes./ Motion.*r/ Living room.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "P142",
+   "text": "The live feed./ It's you,/ at the door,/ from behind./",
+   "pause": 0.5
+  },
+  {
+   "id": "P143",
+   "text": "And right behind you,/ close enough to touch,/ something is standing.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "P144",
+   "text": "Taller than a cat can stand.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "P145",
+   "text": "Its head tilted/ the way you tilt yours.*r/",
+   "pause": 1.0
+  },
+  {
+   "id": "P146",
+   "text": "You turn around./",
+   "pause": 0.6
+  },
+  {
+   "id": "P147",
+   "text": "Nothing.*y/ The hallway is empty./",
+   "pause": 0.4
+  },
+  {
+   "id": "P148",
+   "text": "Pepper is on the counter,/ on four legs,/ purring./",
+   "pause": 0.7
+  },
+  {
+   "id": "P149",
+   "text": "You look back at the phone./",
+   "pause": 0.4
+  },
+  {
+   "id": "P150",
+   "text": "It's still there.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "P151",
+   "text": "Closer.*r/",
+   "pause": 1.0
+  },
+  {
+   "id": "P152",
+   "text": "And right next to your ear,/ in your own voice,/ something whispers./",
+   "pause": 0.3
+  },
+  {
+   "id": "P153",
+   "text": "\"Hey, buddy.\"*r/",
+   "pause": 2.6,
+   "fx": "whisper"
+  },
+  {
+   "id": "P154",
+   "text": "The shelter is loud./ Every cat is crying./",
+   "pause": 0.4
+  },
+  {
+   "id": "P155",
+   "text": "A carrier on the counter.*y/",
+   "pause": 0.4
+  },
+  {
+   "id": "P156",
+   "text": "\"Pepper? Again?*y/ He's perfect.*g/ What happened?\"/",
+   "pause": 0.6,
+   "fx": "volunteer"
+  },
+  {
+   "id": "P157",
+   "text": "The person handing him over/ is smiling.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "P158",
+   "text": "The same smile.*r/ The same tilt of the head./",
+   "pause": 0.6
+  },
+  {
+   "id": "P159",
+   "text": "It's you.*r/",
+   "pause": 1.1
+  },
+  {
+   "id": "P160",
+   "text": "\"Nothing happened,\"/ you say./",
+   "pause": 0.3
+  },
+  {
+   "id": "P161",
+   "text": "\"I just think/ someone else/ should have a turn.\"*r/",
+   "pause": 0.9
+  },
+  {
+   "id": "P162",
+   "text": "The volunteer writes on his card./ Returned four times.*r/ No reason given.*r/",
+   "pause": 0.6
+  },
+  {
+   "id": "P163",
+   "text": "And inside the carrier,/ for the first time,/ the cat is crying.*r/",
+   "pause": 0.4
+  },
+  {
+   "id": "P164",
+   "text": "Pressed against the bars./ Over and over./ Like it's trying to say something.*r/",
+   "pause": 0.5
+  },
+  {
+   "id": "P165",
+   "text": "\"Huh.*y/ He's never made a sound before.\"/",
+   "pause": 1.0,
+   "fx": "volunteer"
+  },
+  {
+   "id": "P166",
+   "text": "You walk out into the sun,/ a little too straight.*r/",
+   "pause": 1.4
+  },
+  {
+   "id": "P167",
+   "text": "You never wondered/ why I sound like you.*r/",
+   "pause": 2.2,
+   "fx": "pepper"
+  },
+  {
+   "id": "P168",
+   "text": "Is your cat facing you/ right now?*r/",
+   "pause": 1.5,
+   "fx": "pepper"
+  }
+ ]
+}

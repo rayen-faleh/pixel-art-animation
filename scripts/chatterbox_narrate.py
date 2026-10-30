@@ -44,6 +44,13 @@ FX = {
             'acompressor=threshold=-22dB:ratio=4:attack=3:release=60:makeup=4dB,aecho=0.7:0.4:35|70:0.2|0.1,volume=2.0,alimiter=limit=0.9',
     'caller': 'asetrate=28320,aresample=24000,atempo=0.84746,highpass=f=380,lowpass=f=3000,'
               'acompressor=threshold=-22dB:ratio=4:attack=3:release=60:makeup=4dB,aecho=0.7:0.45:35|70:0.25|0.12,volume=1.9,alimiter=limit=0.9',
+    # KEEP PRETENDING: shelter volunteer = narrator up ~3 semitones in a bright room; the whisper at your ear
+    # (thin and breathy, very close); the narrator reveal = a hair lower, bone-dry and right on the mic
+    'volunteer': 'asetrate=28560,aresample=24000,atempo=0.84034,highpass=f=120,aecho=0.8:0.35:22|45:0.18|0.08',
+    'whisper': 'highpass=f=700,lowpass=f=6500,acompressor=threshold=-30dB:ratio=6:attack=2:release=80:makeup=6dB,'
+               'aecho=0.6:0.25:8:0.3,volume=0.55',
+    'pepper': 'asetrate=23040,aresample=24000,atempo=1.04167,bass=g=3:f=120,'
+              'acompressor=threshold=-24dB:ratio=3:attack=2:release=90:makeup=3dB',
 }
 
 
@@ -150,6 +157,7 @@ def main():
     ap.add_argument('--cfg', type=float, default=0.4); ap.add_argument('--temperature', type=float, default=0.8)
     ap.add_argument('--seed', type=int, default=11); ap.add_argument('--tries', type=int, default=4)
     ap.add_argument('--tempo', type=float, default=1.0); ap.add_argument('--lines', default=None); ap.add_argument('--cache', default='audio/cache')
+    ap.add_argument('--threads', type=int, default=0)
     a = ap.parse_args()
 
     import torch
@@ -158,8 +166,11 @@ def main():
     lines = json.load(open(a.script))['lines']
     if a.lines:
         keep = set(a.lines.split(',')); lines = [l for l in lines if l['id'] in keep]
-    tts = ChatterboxTTS.from_pretrained(device='cuda')
-    asr = WhisperModel('small.en', device='cuda', compute_type='float16')
+    dev = 'cuda' if torch.cuda.is_available() else 'cpu'   # CPU works too (cloud sessions), just slower
+    if dev == 'cpu' and a.threads:
+        torch.set_num_threads(a.threads)
+    tts = ChatterboxTTS.from_pretrained(device=dev)
+    asr = WhisperModel('small.en', device=dev, compute_type='float16' if dev == 'cuda' else 'int8')
     cache = Path(a.cache); cache.mkdir(parents=True, exist_ok=True)
     voice_id = hashlib.sha1(Path(a.ref).read_bytes()).hexdigest()[:10] if a.ref else 'default'
 

@@ -1,0 +1,150 @@
+{
+ "plate_height": 240,
+ "atlases": [
+  {
+   "name": "pepper",
+   "sources": [
+    {
+     "file": "incoming/K1-pepper-cat_gpt_v1.png",
+     "names": [
+      "sit",
+      "sit_side",
+      "loaf",
+      "sleep",
+      "walk0",
+      "walk1",
+      "walk2",
+      "walk3"
+     ]
+    },
+    {
+     "file": "incoming/K2-pepper-cat2_gpt_v1.png",
+     "names": [
+      "stand4",
+      "rub",
+      "eat",
+      "lookback",
+      "sit_back",
+      "lie",
+      "crouch",
+      "blink"
+     ]
+    },
+    {
+     "file": "incoming/K3-pepper-upright_gpt_v1.png",
+     "names": [
+      "rise0",
+      "rise1",
+      "up",
+      "up_side",
+      "upwalk0",
+      "upwalk1",
+      "up_back",
+      "up_tilt"
+     ]
+    },
+    {
+     "file": "incoming/K4-pepper-uncanny_gpt_v1.png",
+     "names": [
+      "bed_person",
+      "chair",
+      "mirror0",
+      "mirror1",
+      "mirror2",
+      "talk",
+      "content",
+      "dark"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "pepper_busts",
+   "sources": [
+    {
+     "file": "incoming/B1-pepper-busts_gpt_v1.png",
+     "names": [
+      "calm",
+      "half",
+      "closed",
+      "slits",
+      "talk",
+      "smile"
+     ],
+     "merge": 5
+    }
+   ]
+  },
+  {
+   "name": "smile_busts",
+   "sources": [
+    {
+     "file": "incoming/B2-smile-busts_gpt_v1.png",
+     "names": [
+      "hero",
+      "hero_smile",
+      "dana",
+      "marcus",
+      "june"
+     ],
+     "merge": 5
+    }
+   ]
+  },
+  {
+   "name": "kp_props",
+   "sources": [
+    {
+     "file": "incoming/P1-kp-props_gpt_v1.png",
+     "names": [
+      "petcam",
+      "bowl",
+      "bowl_full",
+      "mug",
+      "phone",
+      "phone_cracked",
+      "scrunchie",
+      "key_tag",
+      "wristband",
+      "carrier",
+      "carrier_open",
+      "key_hooks"
+     ],
+     "merge": 6
+    }
+   ]
+  }
+ ],
+ "plates": [
+  {
+   "name": "kp_apartment",
+   "file": "incoming/S1-apartment_gpt_v1.png",
+   "height": 135,
+   "aspect": "16/9"
+  },
+  {
+   "name": "kp_bedroom",
+   "file": "incoming/S2-bedroom_gpt_v1.png",
+   "height": 135,
+   "aspect": "16/9"
+  },
+  {
+   "name": "kp_bathroom",
+   "file": "incoming/S3-bathroom_gpt_v1.png",
+   "height": 135,
+   "aspect": "16/9"
+  },
+  {
+   "name": "kp_shelter",
+   "file": "incoming/S4-shelter_gpt_v1.png",
+   "height": 135,
+   "aspect": "16/9"
+  },
+  {
+   "name": "kp_street",
+   "file": "incoming/S5-street-day_gpt_v1.png",
+   "height": 135,
+   "aspect": "16/9"
+  }
+ ]
+}

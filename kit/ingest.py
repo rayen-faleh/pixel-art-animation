@@ -205,10 +205,17 @@ def ingest_sheet(path, names, merge, log):
     return out
 
 
-def ingest_plate(path, name, height, out_dir, log):
+def ingest_plate(path, name, height, out_dir, log, aspect=None):
     """Re-pixelate on the plate's own grid (no colour reduction: dark plates need every shade),
-    then nearest-scale to `height` art px so all sets share the world's 240-px height."""
+    then nearest-scale to `height` art px so all sets share the world's 240-px height.
+    `aspect` (w/h, e.g. 16/9) centre-crops the source first: 3:2 GPT plates -> 16:9 sets."""
     rgb = np.asarray(Image.open(path).convert('RGB'))
+    if aspect:
+        H, W = rgb.shape[:2]
+        if W / H < aspect:
+            ch = round(W / aspect); y0 = (H - ch) // 2; rgb = rgb[y0:y0 + ch]
+        else:
+            cw = round(H * aspect); x0 = (W - cw) // 2; rgb = rgb[:, x0:x0 + cw]
     ests = sorted(block_size(rgb))
     p = ests[0] if len(ests) == 1 or ests[1] > ests[0] * 1.6 else float(np.mean(ests))  # ignore a 2x harmonic
     c = rgb.astype(int)
@@ -247,7 +254,9 @@ def main():
     for pl in man.get('plates', []):
         if a.only and pl['name'] != a.only:
             continue
-        art = ingest_plate(f"{root}/{pl['file']}", pl['name'], man.get('plate_height', 240), f"{root}/public/sets", log)
+        aspect = pl.get('aspect')
+        art = ingest_plate(f"{root}/{pl['file']}", pl['name'], pl.get('height', man.get('plate_height', 240)), f"{root}/public/sets", log,
+                           (lambda a, b: float(a) / float(b))(*aspect.split('/')) if isinstance(aspect, str) else aspect)
         Image.fromarray(art).resize((art.shape[1] * 3, art.shape[0] * 3), Image.NEAREST).save(f"{a.preview}/{pl['name']}.png")
     print('\n'.join(log))
 
