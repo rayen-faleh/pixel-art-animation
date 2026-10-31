@@ -6,7 +6,7 @@ import janA from '../../public/sprites/janitor.json';
 import infA from '../../public/sprites/infected.json';
 import propA from '../../public/sprites/school_props.json';
 import {FPS, color} from '../kit/theme';
-import {World, SetLayer, camAt, useKitFonts, clamp} from '../kit/world';
+import {World, SetLayer, camAt, useKitFonts, clamp, CamKey} from '../kit/world';
 import {Atlas, PixelSprite} from '../kit/sprite';
 import {Glow, Darken, Flash, Vignette, Rings, useHits} from '../kit/effects';
 import {WordCaption, Hud, phrasesFrom, Word} from '../kit/overlay';
@@ -70,7 +70,7 @@ const Library: React.FC<{g: number; lit: boolean; children?: React.ReactNode}> =
 </>;
 
 const HX = 67, HY = 196;
-const LibShot: React.FC<{from: number; to: number; cam: {at: number; x: number; y: number; zoom: number}[]; keys: {at: number; pose: string}[]; litUntil?: number}> = ({from, cam, keys, litUntil = 1e9}) => {
+const LibShot: React.FC<{from: number; to: number; cam: CamKey[]; keys: {at: number; pose: string}[]; litUntil?: number}> = ({from, cam, keys, litUntil = 1e9}) => {
   const f = useCurrentFrame(); const g = f + from;
   const phone = keys.some((k) => g >= k.at && k.pose.startsWith('phone'));
   return <World cam={camAt(g, cam)}><Library g={g} lit={g < litUntil}>

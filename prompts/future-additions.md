@@ -128,3 +128,10 @@ BACKGROUND: flat solid magenta #FF00FF. DO NOT: glow, shadows, text, borders.
 | Beer cooler (3 glass doors, cans, compressor grille, plug behind it) | divs in `NightShift2.tsx` | A pixel set layer that matches the store plate |
 | Dev mouthing "battery's dying" / taking off his shoes | the `driver` sprite front/3-4 frames | A mouth-shape frame and a crouch/shoe pose |
 | Crawler hands under the shutter | the Part 1 `under_door` frame repeated | A real hand sprite with fingers splayed on the tiles |
+
+## KEEP PRETENDING (long form, 16:9)
+
+Placeholder cast and sets are drawn in code (`kit/cast_pepper.py`, `kit/sets_keep.py`). The full ChatGPT replacement
+pack (Pepper the cat incl. the upright poses, busts, props, five 16:9 sets) is already written in
+`prompts/keep-pretending-prompts.md`, with labelled pose guides in `prompts/refs/ref-pepper-*.png`. Ingest with
+`python3.12 kit/ingest.py kit/ingest_kp.json`.

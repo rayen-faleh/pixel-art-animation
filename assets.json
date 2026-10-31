@@ -76,6 +76,13 @@
    "path": "NIGHT SHIFT Part 2: src/film/NightShift2.tsx, public/audio/ns2-mix.wav",
    "source": "reuses NIGHT SHIFT Part 1 store/forecourt plates, crawler, civilians (Dev = driver), hero; beer cooler insert drawn in code; reels-ui hook/chips/counters/choice/end card; narration Chatterbox (user's voice, cfg 0.65, tempo 1.0); bed liminal_hum.py",
    "license": "project-owned; user's own voice used with permission; Chatterbox MIT; SFX original"
+  },
+  {
+   "path": "KEEP PRETENDING (long form, 16:9): public/sets/kp_*.png, public/sprites/{pepper,pepper_busts,smile_busts,kp_props}.png|json, public/audio/kp-mix.mp3",
+   "source": "placeholder cast/sets drawn in code (kit/cast_pepper.py, kit/sets_keep.py); ChatGPT replacements specified in prompts/keep-pretending-prompts.md and ingested with kit/ingest_kp.json; narration Chatterbox (user's voice) with volunteer / whisper / pepper FX; SFX sfx_mix.py (purr, purr_wrong, creak, motor, meow, pad)",
+   "license": "project-owned; user's own voice used with permission; Chatterbox MIT; SFX original",
+   "shots": "src/film/KeepPretending.tsx (compositions KeepPretending, KeepPretendingThumb, 1920x1080)",
+   "limitations": "mix shipped as MP3 because the WAV is over GitHub's 100 MB limit; pet-cam UI is generic; facts and sources in pretend-concept.md"
   }
  ]
 }

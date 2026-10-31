@@ -239,6 +239,17 @@ Where the bed comes from:
   written for ChatGPT only.
 - We can't listen to audio here. Check the mix with numbers: LUFS, the speech vs pause gap, and
   transcription of every line.
+- **Reel toolkit:** `src/film/reels-ui.tsx` holds the section 4 pieces (hook headline, beat chips, big counters,
+  numbered choice, "your comments decide" end card). AFTER HOURS Day 2 and NIGHT SHIFT Part 2 use it; reuse it.
+- **Sequels open on the vote:** say which option won in the first seconds ("You picked option one"), then show its
+  cost. Put "PART/DAY 1 · ON MY PAGE" under the hook headline.
+- **Narration pace:** tempo 1.0 for reels now (section 4: ~125 wpm target); 1.05–1.08 only for tight shorts.
+- **Long form can end on a twist instead of a choice** (KEEP PRETENDING, `pretend-concept.md`): the rules were the
+  trap, and the narrator was the threat all along. Plant deniable clues, change only the last line's voice, and end on
+  a question aimed at the viewer ("Is your cat facing you right now?"). NIGHT ROAD's dome light turning on by itself
+  works the same way.
+- **Big mixes:** a long-form WAV can pass GitHub's 100 MB limit; ship the public mix as MP3 (KEEP PRETENDING).
+- **Narration runs on CPU too** (`chatterbox_narrate.py` falls back to CPU with `--threads`), just slower.
 
 ---
 
