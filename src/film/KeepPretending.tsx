@@ -466,7 +466,7 @@ export const KeepPretending: React.FC = () => {
     {f < E.end - 4 && (idx >= 0 && kinds[idx] === 'phone'
       ? <div style={{position: 'absolute', left: 0, top: 0, width: 1150, height: 1080}}><CaptionL phrases={PHRASES} size={68} /></div>
       : <CaptionL phrases={PHRASES} />)}
-    <Audio src={staticFile('audio/kp-mix.wav')} />
+    <Audio src={staticFile('audio/kp-mix.mp3')} />
   </AbsoluteFill>;
 };
 
