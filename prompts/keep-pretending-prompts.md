@@ -5,6 +5,8 @@ early, reply `Continue with image N.`). Same delivery contract as `asset-prompts
 pixels, 1-px outline, no baked lighting, no text.
 
 **Attach to message 1:** `prompts/refs/ref-cast.png`, `prompts/refs/ref-props-small.png`, `prompts/refs/ref-palette.png`
+(Optional) also attach `prompts/refs/ref-pepper-sheet.png` and `prompts/refs/ref-pepper-busts.png`: the code-drawn placeholder
+poses, labelled, so ChatGPT sees every pose we need in order. Say they are a pose guide only, not the style to copy.
 **Attach to message 2:** `prompts/refs/ref-sets.png`, `prompts/refs/ref-palette.png`
 
 **Save as** (in `incoming/`), in the order ChatGPT returns them:
